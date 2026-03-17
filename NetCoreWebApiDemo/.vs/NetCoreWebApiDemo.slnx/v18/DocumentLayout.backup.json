@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Software\\C#\\NetCoreWebApiDemo\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|c:\\software\\c#\\netcorewebapidemo\\netcorewebapidemo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|solutionrelative:netcorewebapidemo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|c:\\software\\c#\\netcorewebapidemo\\netcorewebapidemo\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|solutionrelative:netcorewebapidemo\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|c:\\software\\c#\\netcorewebapidemo\\netcorewebapidemo\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|solutionrelative:netcorewebapidemo\\repositories\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|c:\\software\\c#\\netcorewebapidemo\\netcorewebapidemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|solutionrelative:netcorewebapidemo\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|c:\\software\\c#\\netcorewebapidemo\\netcorewebapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|solutionrelative:netcorewebapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|c:\\software\\c#\\netcorewebapidemo\\netcorewebapidemo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|solutionrelative:netcorewebapidemo\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "NetCoreWebApiDemo\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Services\\ProductService.cs",
+              "RelativeToolTip": "NetCoreWebApiDemo\\Services\\ProductService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T15:14:48.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\appsettings.json",
+              "RelativeDocumentMoniker": "NetCoreWebApiDemo\\appsettings.json",
+              "ToolTip": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\appsettings.json",
+              "RelativeToolTip": "NetCoreWebApiDemo\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAB8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-17T15:10:17.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Program.cs",
+              "RelativeDocumentMoniker": "NetCoreWebApiDemo\\Program.cs",
+              "ToolTip": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Program.cs",
+              "RelativeToolTip": "NetCoreWebApiDemo\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T15:09:09.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Repositories\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "NetCoreWebApiDemo\\Repositories\\IGenericRepository.cs",
+              "ToolTip": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Repositories\\IGenericRepository.cs",
+              "RelativeToolTip": "NetCoreWebApiDemo\\Repositories\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T14:57:11.331Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "NetCoreWebApiDemo\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "NetCoreWebApiDemo\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAQwAsAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T14:45:56.072Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "NetCoreWebApiDemo\\Models\\Product.cs",
+              "ToolTip": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Models\\Product.cs",
+              "RelativeToolTip": "NetCoreWebApiDemo\\Models\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-17T14:43:28.134Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

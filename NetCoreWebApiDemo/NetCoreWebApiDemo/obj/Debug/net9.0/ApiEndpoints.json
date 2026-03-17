@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "NetCoreWebApiDemo.Controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/User/create/{companyId}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "companyId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "isActive",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      },
+      {
+        "Name": "userDto",
+        "Type": "NetCoreWebApiDemo.Models.UserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
