@@ -157,3 +157,4 @@ C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\obj\Debug\net10.0\NetCoreWebA
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\obj\Debug\net10.0\NetCoreWebApiDemo.genruntimeconfig.cache
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\obj\Debug\net10.0\ref\NetCoreWebApiDemo.dll
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\obj\Debug\net10.0\NetCoreWebApiDemo.sourcelink.json

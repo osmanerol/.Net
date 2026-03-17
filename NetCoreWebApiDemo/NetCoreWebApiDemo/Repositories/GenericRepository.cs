@@ -28,6 +28,11 @@ namespace NetCoreWebApiDemo.Repositories
             return _dbSet.ToList();
         }
 
+        public IQueryable<T> GetAllQueryable()
+        {
+            return _dbSet.AsNoTracking();
+        }
+
         public T? GetById(int id)
         {
             return _dbSet.Find(id);

@@ -5,6 +5,7 @@ namespace NetCoreWebApiDemo.Services
     public interface IProductService
     {
         IEnumerable<Product> GetAll();
+        Result<Product> GetPagedFilteredSorted(int page, int pageSize, string? sort, string? search);
         Product? GetById(int id);
         void Add(Product product);
         void Update(int id, Product product);

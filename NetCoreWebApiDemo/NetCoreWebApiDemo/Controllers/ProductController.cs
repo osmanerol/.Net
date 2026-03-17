@@ -29,6 +29,24 @@ namespace NetCoreWebApiDemo.Controllers
             }
         }
 
+        [HttpGet("GetAllFiltered")]
+        public IActionResult GetAllFiltered(
+            [FromQuery] int page = 1,
+            [FromQuery] int pageSize = 2,
+            [FromQuery] string? sort = null,
+            [FromQuery] string? search = null
+        )
+        {
+            try
+            {
+                return Ok(_productService.GetPagedFilteredSorted(page, pageSize, sort, search));
+            }
+            catch (Exception ex)
+            {
+                return BadRequest(ex.Message);
+            }
+        }
+
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
