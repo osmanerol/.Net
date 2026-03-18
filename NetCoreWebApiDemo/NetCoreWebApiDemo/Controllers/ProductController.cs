@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NetCoreWebApiDemo.Exceptions;
 using NetCoreWebApiDemo.Filters;
 using NetCoreWebApiDemo.Models.Product;
 using NetCoreWebApiDemo.Services;
@@ -58,6 +59,8 @@ namespace NetCoreWebApiDemo.Controllers
         {
             if (id <= 0)
                 throw new ArgumentException("Invalid id.");
+            if (id == 1)
+                throw new NotFoundException("");
             var item = _productService.GetById(id);
             return item == null ? NotFound() : Ok(item);
         }
