@@ -1,5 +1,7 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using AutoMapper;
+using Microsoft.EntityFrameworkCore;
 using NetCoreWebApiDemo.Models;
+using NetCoreWebApiDemo.Models.Product;
 using NetCoreWebApiDemo.Repositories;
 using System.Globalization;
 
@@ -8,15 +10,18 @@ namespace NetCoreWebApiDemo.Services
     public class ProductService : IProductService
     {
         private readonly IGenericRepository<Product> _repository;
+        private readonly IMapper _mappper;
 
-        public ProductService(IGenericRepository<Product> repository)
+        public ProductService(IGenericRepository<Product> repository, IMapper mapper)
         {
             _repository = repository;
+            _mappper = mapper;
         }
 
-        public void Add(Product product)
+        public void Add(ProductSaveDto product)
         {
-            _repository.Add(product);
+            var productEntity = _mappper.Map<Product>(product);
+            _repository.Add(productEntity);
             _repository.Save();
         }
 
@@ -29,12 +34,14 @@ namespace NetCoreWebApiDemo.Services
             _repository.Save();
         }
 
-        public IEnumerable<Product> GetAll()
+        public IEnumerable<ProductDto> GetAll()
         {
-            return _repository.GetAll();
+            IEnumerable<Product> products = _repository.GetAll();
+            var productList = _mappper.Map<List<ProductDto>>(products);
+            return productList;
         }
 
-        public Result<Product> GetPagedFilteredSorted(int page, int pageSize, string? sort, string? search)
+        public Result<ProductDto> GetPagedFilteredSorted(int page, int pageSize, string? sort, string? search)
         {
             var query = _repository.GetAllQueryable();
             if(!string.IsNullOrEmpty(search))
@@ -47,22 +54,23 @@ namespace NetCoreWebApiDemo.Services
                 .Take(pageSize)
                 .AsNoTracking()
                 .ToList();
-            return new Result<Product>(data, totalCount, page, pageSize);
+            var dataList = _mappper.Map<List<ProductDto>>(data);
+            return new Result<ProductDto>(dataList, totalCount, page, pageSize);
         }
 
-        public Product? GetById(int id)
+        public ProductDto? GetById(int id)
         {
-            return _repository.GetById(id);
+            var entity = _repository.GetById(id);
+            var product = _mappper.Map<ProductDto>(entity);
+            return product;
         }
 
-        public void Update(int id, Product product)
+        public void Update(int id, ProductSaveDto product)
         {
             var item = _repository.GetById(id);
             if (item == null)
                 throw new Exception("Product not found.");
-            item.Name = product.Name;
-            item.Price = product.Price;
-            item.Stock  = product.Stock;
+            var productEntity = _mappper.Map<Product>(product);
             _repository.Update(item);
             _repository.Save();
         }

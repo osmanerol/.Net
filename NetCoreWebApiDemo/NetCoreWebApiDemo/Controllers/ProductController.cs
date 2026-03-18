@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using NetCoreWebApiDemo.Models;
+using NetCoreWebApiDemo.Models.Product;
 using NetCoreWebApiDemo.Services;
 
 namespace NetCoreWebApiDemo.Controllers
@@ -62,12 +62,12 @@ namespace NetCoreWebApiDemo.Controllers
         }
 
         [HttpPost]
-        public IActionResult Add(Product product)
+        public IActionResult Add(ProductSaveDto product)
         {
             try
             {
                 _productService.Add(product);
-                return CreatedAtAction(nameof(GetById), new { id = product.Id }, product);
+                return CreatedAtAction(nameof(GetById), product);
             }
             catch (Exception ex)
             {
@@ -76,7 +76,7 @@ namespace NetCoreWebApiDemo.Controllers
         }
 
         [HttpPut("{id}")]
-        public IActionResult Update(int id, Product product)
+        public IActionResult Update(int id, ProductSaveDto product)
         {
             try
             {

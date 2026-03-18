@@ -1,14 +1,15 @@
 ﻿using NetCoreWebApiDemo.Models;
+using NetCoreWebApiDemo.Models.Product;
 
 namespace NetCoreWebApiDemo.Services
 {
     public interface IProductService
     {
-        IEnumerable<Product> GetAll();
-        Result<Product> GetPagedFilteredSorted(int page, int pageSize, string? sort, string? search);
-        Product? GetById(int id);
-        void Add(Product product);
-        void Update(int id, Product product);
+        IEnumerable<ProductDto> GetAll();
+        Result<ProductDto> GetPagedFilteredSorted(int page, int pageSize, string? sort, string? search);
+        ProductDto? GetById(int id);
+        void Add(ProductSaveDto product);
+        void Update(int id, ProductSaveDto product);
         void Delete(int id);
     }
 }
