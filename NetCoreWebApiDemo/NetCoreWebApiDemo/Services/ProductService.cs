@@ -10,17 +10,17 @@ namespace NetCoreWebApiDemo.Services
     public class ProductService : IProductService
     {
         private readonly IGenericRepository<Product> _repository;
-        private readonly IMapper _mappper;
+        private readonly IMapper _mapper;
 
         public ProductService(IGenericRepository<Product> repository, IMapper mapper)
         {
             _repository = repository;
-            _mappper = mapper;
+            _mapper = mapper;
         }
 
         public void Add(ProductSaveDto product)
         {
-            var productEntity = _mappper.Map<Product>(product);
+            var productEntity = _mapper.Map<Product>(product);
             _repository.Add(productEntity);
             _repository.Save();
         }
@@ -37,7 +37,7 @@ namespace NetCoreWebApiDemo.Services
         public IEnumerable<ProductDto> GetAll()
         {
             IEnumerable<Product> products = _repository.GetAll();
-            var productList = _mappper.Map<List<ProductDto>>(products);
+            var productList = _mapper.Map<List<ProductDto>>(products);
             return productList;
         }
 
@@ -54,14 +54,14 @@ namespace NetCoreWebApiDemo.Services
                 .Take(pageSize)
                 .AsNoTracking()
                 .ToList();
-            var dataList = _mappper.Map<List<ProductDto>>(data);
+            var dataList = _mapper.Map<List<ProductDto>>(data);
             return new Result<ProductDto>(dataList, totalCount, page, pageSize);
         }
 
         public ProductDto? GetById(int id)
         {
             var entity = _repository.GetById(id);
-            var product = _mappper.Map<ProductDto>(entity);
+            var product = _mapper.Map<ProductDto>(entity);
             return product;
         }
 
@@ -70,7 +70,7 @@ namespace NetCoreWebApiDemo.Services
             var item = _repository.GetById(id);
             if (item == null)
                 throw new Exception("Product not found.");
-            var productEntity = _mappper.Map<Product>(product);
+            var productEntity = _mapper.Map(product, item);
             _repository.Update(item);
             _repository.Save();
         }
