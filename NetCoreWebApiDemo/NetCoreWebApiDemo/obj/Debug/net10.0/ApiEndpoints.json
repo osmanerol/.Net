@@ -1,5 +1,15 @@
 [
   {
+    "ContainingType": "NetCoreWebApiDemo.Controllers.ConfigCompareController",
+    "Method": "GetConfig",
+    "RelativePath": "api/ConfigCompare/config",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NetCoreWebApiDemo.Controllers.ProductController",
     "Method": "GetAll",
     "RelativePath": "api/Product",
