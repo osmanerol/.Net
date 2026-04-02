@@ -1,0 +1,60 @@
+2026-04-01 17:54:31.007 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-01 17:54:31.149 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-01 17:54:31.152 +03:00 [INF] Hosting environment: Development
+2026-04-01 17:54:31.155 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-01 17:54:39.879 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/product - null null
+2026-04-01 17:54:39.941 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-01 17:54:39.969 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-01 17:54:39.989 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-01 17:54:40.017 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-01 17:54:40.905 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-01 17:54:41.133 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-04-01 17:54:41.138 +03:00 [INF] GetAll fetched at: "2026-04-01T17:54:41.1387977+03:00"
+2026-04-01 17:54:41.868 +03:00 [INF] Executed DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-01 17:54:41.993 +03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-01 17:54:42.034 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 2006.4343ms
+2026-04-01 17:54:42.038 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-01 17:54:42.042 +03:00 [INF] HTTP GET /api/product responded 200 in 2055.2670 ms
+2026-04-01 17:54:42.062 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/product - 200 null application/json; charset=utf-8 2197.2835ms
+2026-04-01 17:58:56.135 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-01 17:58:56.324 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-01 17:58:56.326 +03:00 [INF] Hosting environment: Development
+2026-04-01 17:58:56.328 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-01 17:59:12.273 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/product - null null
+2026-04-01 17:59:12.331 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-01 17:59:12.347 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-01 17:59:12.361 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-01 17:59:12.384 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-01 17:59:13.153 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-01 17:59:13.398 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-04-01 17:59:13.403 +03:00 [INF] GetAll fetched at: "2026-04-01T17:59:13.4032154+03:00"
+2026-04-01 17:59:14.093 +03:00 [INF] Executed DbCommand (26ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-01 17:59:14.209 +03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-01 17:59:14.250 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 1854.9314ms
+2026-04-01 17:59:14.254 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-01 17:59:14.259 +03:00 [INF] HTTP GET /api/product responded 200 in 1901.2255 ms
+2026-04-01 17:59:14.285 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/product - 200 null application/json; charset=utf-8 2018.9865ms
+2026-04-01 18:00:12.562 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-01 18:00:12.690 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-01 18:00:12.692 +03:00 [INF] Hosting environment: Development
+2026-04-01 18:00:12.694 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-01 18:00:14.527 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/product - null null
+2026-04-01 18:00:14.615 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-01 18:00:14.623 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-01 18:00:14.636 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-01 18:00:14.660 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-01 18:00:15.516 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-01 18:00:15.761 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-04-01 18:00:15.768 +03:00 [INF] GetAll fetched at: "2026-04-01T18:00:15.7676873+03:00"
+2026-04-01 18:00:16.426 +03:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-01 18:00:16.550 +03:00 [INF] Executing JsonResult, writing value of type '<>f__AnonymousType2`2[[System.Boolean, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Object, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-01 18:00:16.591 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 1921.2477ms
+2026-04-01 18:00:16.595 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-01 18:00:16.602 +03:00 [INF] HTTP GET /api/product responded 200 in 1968.5967 ms
+2026-04-01 18:00:16.623 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/product - 200 null application/json; charset=utf-8 2103.8342ms

@@ -17,7 +17,6 @@ C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\NetCoreWebA
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Azure.Core.dll
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Azure.Identity.dll
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Humanizer.dll
-C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Microsoft.Bcl.Cryptography.dll
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Microsoft.Build.Framework.dll
@@ -159,3 +158,19 @@ C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\obj\Debug\net10.0\ref\NetCore
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\obj\Debug\net10.0\NetCoreWebApiDemo.sourcelink.json
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\AutoMapper.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\CorrelationId.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Serilog.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Serilog.AspNetCore.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Serilog.Enrichers.CorrelationId.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Serilog.Sinks.File.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\NetCoreWebApiDemo.xml
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\obj\Debug\net10.0\NetCoreWebApiDemo.xml

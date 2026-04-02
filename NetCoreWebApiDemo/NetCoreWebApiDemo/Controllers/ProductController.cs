@@ -1,33 +1,46 @@
-﻿using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using NetCoreWebApiDemo.Exceptions;
 using NetCoreWebApiDemo.Filters;
+using NetCoreWebApiDemo.Models;
 using NetCoreWebApiDemo.Models.Product;
 using NetCoreWebApiDemo.Services;
 
 namespace NetCoreWebApiDemo.Controllers
 {
     [Route("api/[controller]")]
+    /*
     [ServiceFilter(typeof(ApiKeyAuthorizationFilter))]
     [ServiceFilter(typeof(ResourceLogFilter))]
     [ServiceFilter(typeof(ActionLogFilter))]
+    */
     //[TypeFilter(typeof(ApiKeyAuthorizationFilter))]
     [ApiController]
     public class ProductController : ControllerBase
     {
         private readonly IProductService _productService;
+        private readonly ILogger<ProductController> _logger;
 
-        public ProductController(IProductService productService)
+        public ProductController(IProductService productService, ILogger<ProductController> logger)
         {
             _productService = productService;
+            _logger = logger;
         }
 
+        /// <summary>
+        /// Get all product wihtout filter
+        /// </summary>
+        /// <returns></returns>
         [HttpGet]
+        /*
         [ServiceFilter(typeof(WrapResponseFilter))]
+        */
+        [ProducesResponseType(typeof(IEnumerable<ProductDto>), 200)]
+        [ProducesResponseType(typeof(NoData), 400)]
         public IActionResult GetAll()
         {
             try
             {
+                _logger.LogInformation("GetAll fetched at: {time}", DateTime.Now);
                 return Ok(_productService.GetAll());
             }
             catch (Exception ex)
@@ -54,6 +67,13 @@ namespace NetCoreWebApiDemo.Controllers
             }
         }
 
+        /// <summary>
+        /// Return custom product
+        /// </summary>
+        /// <param name="id">Product unique id</param>
+        /// <returns></returns>
+        /// <exception cref="ArgumentException"></exception>
+        /// <exception cref="NotFoundException"></exception>
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {

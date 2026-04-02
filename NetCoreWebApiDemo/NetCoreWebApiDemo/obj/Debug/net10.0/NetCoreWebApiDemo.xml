@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NetCoreWebApiDemo</name>
+    </assembly>
+    <members>
+        <member name="M:NetCoreWebApiDemo.Controllers.ProductController.GetAll">
+            <summary>
+            Get all product wihtout filter
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NetCoreWebApiDemo.Controllers.ProductController.GetById(System.Int32)">
+            <summary>
+            Return custom product
+            </summary>
+            <param name="id">Product unique id</param>
+            <returns></returns>
+            <exception cref="T:System.ArgumentException"></exception>
+            <exception cref="T:NetCoreWebApiDemo.Exceptions.NotFoundException"></exception>
+        </member>
+        <member name="T:NetCoreWebApiDemo.Migrations.initial">
+            <inheritdoc />
+        </member>
+        <member name="M:NetCoreWebApiDemo.Migrations.initial.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:NetCoreWebApiDemo.Migrations.initial.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:NetCoreWebApiDemo.Migrations.initial.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="P:NetCoreWebApiDemo.Models.Product.ProductSaveDto.Name">
+            <example>Computer</example>
+        </member>
+        <member name="T:Program">
+            <summary>
+            Auto-generated public partial Program class for top-level statement apps.
+            </summary>
+        </member>
+    </members>
+</doc>
