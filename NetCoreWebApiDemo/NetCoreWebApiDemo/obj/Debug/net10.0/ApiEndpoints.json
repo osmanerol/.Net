@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "NetCoreWebApiDemo.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginRequest",
+        "Type": "NetCoreWebApiDemo.Models.LoginRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "NetCoreWebApiDemo.Controllers.ConfigCompareController",
     "Method": "GetConfig",
     "RelativePath": "api/ConfigCompare/config",

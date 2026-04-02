@@ -1,9 +1,12 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using NetCoreWebApiDemo.Exceptions;
 using NetCoreWebApiDemo.Filters;
 using NetCoreWebApiDemo.Models;
 using NetCoreWebApiDemo.Models.Product;
 using NetCoreWebApiDemo.Services;
+using System.Security.Claims;
 
 namespace NetCoreWebApiDemo.Controllers
 {
@@ -31,6 +34,7 @@ namespace NetCoreWebApiDemo.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet]
+        [Authorize]
         /*
         [ServiceFilter(typeof(WrapResponseFilter))]
         */
@@ -40,6 +44,8 @@ namespace NetCoreWebApiDemo.Controllers
         {
             try
             {
+                var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
+                var userName = User.FindFirstValue("name");
                 _logger.LogInformation("GetAll fetched at: {time}", DateTime.Now);
                 return Ok(_productService.GetAll());
             }

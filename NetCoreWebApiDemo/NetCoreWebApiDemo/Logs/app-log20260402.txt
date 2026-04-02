@@ -411,3 +411,584 @@ FROM [Products] AS [p]
 2026-04-02 15:09:29.008 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
 2026-04-02 15:09:29.013 +03:00 [INF] HTTP GET /api/Product responded 200 in 2043.7850 ms
 2026-04-02 15:09:29.033 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product - 200 null application/json; charset=utf-8 2090.9393ms
+2026-04-02 16:41:12.899 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-02 16:41:13.241 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-02 16:41:13.336 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-02 16:41:13.338 +03:00 [INF] Hosting environment: Development
+2026-04-02 16:41:13.339 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-02 16:41:21.592 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 16:41:21.900 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 310.4082ms
+2026-04-02 16:41:21.901 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - null null
+2026-04-02 16:41:21.901 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.css - null null
+2026-04-02 16:41:21.931 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-02 16:41:21.931 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.js - null null
+2026-04-02 16:41:21.937 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - null null
+2026-04-02 16:41:21.953 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.js - 200 null application/javascript;charset=utf-8 21.6418ms
+2026-04-02 16:41:21.975 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.css - 200 152 text/css 75.2434ms
+2026-04-02 16:41:21.975 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - 200 26479 text/css 37.8862ms
+2026-04-02 16:41:22.003 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - 200 418181 text/javascript 103.459ms
+2026-04-02 16:41:22.010 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - 200 76613 text/javascript 78.675ms
+2026-04-02 16:41:22.062 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 16:41:22.079 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 16:41:22.085 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 6.428ms
+2026-04-02 16:41:22.133 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 70.9183ms
+2026-04-02 16:41:22.215 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 16:41:22.224 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 16:41:22.229 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 200 628 image/png 5.3531ms
+2026-04-02 16:41:22.239 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.786ms
+2026-04-02 16:41:34.303 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 54
+2026-04-02 16:41:34.417 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-02 16:41:34.421 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 16:41:34.430 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 16:41:34.452 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-02 16:41:34.494 +03:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2026-04-02 16:41:34.505 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 44.0569ms
+2026-04-02 16:41:34.508 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 16:41:34.512 +03:00 [INF] HTTP POST /api/Auth responded 401 in 83.1439 ms
+2026-04-02 16:41:34.517 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 401 null text/plain; charset=utf-8 214.0715ms
+2026-04-02 16:41:49.858 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 16:41:49.867 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 304 null null 8.5743ms
+2026-04-02 16:41:49.898 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - null null
+2026-04-02 16:41:49.940 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.js - null null
+2026-04-02 16:41:49.900 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-02 16:41:49.899 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.css - null null
+2026-04-02 16:41:49.972 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - 304 null null 73.9882ms
+2026-04-02 16:41:49.899 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - null null
+2026-04-02 16:41:49.970 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 16:41:49.979 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.js - 304 null null 38.5864ms
+2026-04-02 16:41:49.982 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - 304 null null 82.2366ms
+2026-04-02 16:41:49.985 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.css - 304 null null 85.8522ms
+2026-04-02 16:41:49.989 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 16:41:49.992 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - 304 null null 92.2563ms
+2026-04-02 16:41:49.994 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 24.6066ms
+2026-04-02 16:41:50.027 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 38.1734ms
+2026-04-02 16:41:50.105 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 16:41:50.111 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 16:41:50.118 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 304 null null 7.6335ms
+2026-04-02 16:41:50.125 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.8615ms
+2026-04-02 16:42:05.661 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 53
+2026-04-02 16:42:05.667 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 16:42:05.670 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 16:42:05.675 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-02 16:42:10.173 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 4494.9644ms
+2026-04-02 16:42:10.177 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 16:42:10.180 +03:00 [ERR] HTTP POST /api/Auth responded 500 in 4510.3546 ms
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key 'Null', is of size: '112'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at NetCoreWebApiDemo.Services.JwtService.GenerateToken(String userId, String name)
+   at NetCoreWebApiDemo.Controllers.AuthController.Login(LoginRequest loginRequest)
+   at lambda_method5(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+2026-04-02 16:42:10.238 +03:00 [ERR] Unhandled exception occured! TraceId 0HNKGNM3AEOJ8:00000009
+System.ArgumentOutOfRangeException: IDX10653: The encryption algorithm 'HS256' requires a key size of at least '128' bits. Key 'Null', is of size: '112'. (Parameter 'key')
+   at Microsoft.IdentityModel.Tokens.SymmetricSignatureProvider..ctor(SecurityKey key, String algorithm, Boolean willCreateSignatures)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateSignatureProvider(SecurityKey key, String algorithm, Boolean willCreateSignatures, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm, Boolean cacheProvider)
+   at Microsoft.IdentityModel.Tokens.CryptoProviderFactory.CreateForSigning(SecurityKey key, String algorithm)
+   at Microsoft.IdentityModel.JsonWebTokens.JwtTokenUtilities.CreateEncodedSignature(String input, SigningCredentials signingCredentials)
+   at System.IdentityModel.Tokens.Jwt.JwtSecurityTokenHandler.WriteToken(SecurityToken token)
+   at NetCoreWebApiDemo.Services.JwtService.GenerateToken(String userId, String name)
+   at NetCoreWebApiDemo.Controllers.AuthController.Login(LoginRequest loginRequest)
+   at lambda_method5(Closure, Object, Object[])
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.SyncActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeNextActionFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Serilog.AspNetCore.RequestLoggingMiddleware.Invoke(HttpContext httpContext)
+   at NetCoreWebApiDemo.Middlewares.ExceptionMiddleware.InvokeAsync(HttpContext context)
+2026-04-02 16:42:10.268 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 500 null application/json 4607.2672ms
+2026-04-02 16:46:26.933 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-02 16:46:27.220 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-02 16:46:27.304 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-02 16:46:27.307 +03:00 [INF] Hosting environment: Development
+2026-04-02 16:46:27.309 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-02 16:46:46.535 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 16:46:46.782 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 304 null null 257.018ms
+2026-04-02 16:46:46.805 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.css - null null
+2026-04-02 16:46:46.805 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - null null
+2026-04-02 16:46:46.812 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 16:46:46.805 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - null null
+2026-04-02 16:46:46.809 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.js - null null
+2026-04-02 16:46:46.831 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 21.3423ms
+2026-04-02 16:46:46.810 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-02 16:46:46.836 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.js - 304 null null 26.8728ms
+2026-04-02 16:46:46.853 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.css - 304 null null 48.4886ms
+2026-04-02 16:46:46.853 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - 304 null null 49.8559ms
+2026-04-02 16:46:46.854 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - 304 null null 49.0062ms
+2026-04-02 16:46:46.854 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - 304 null null 44.5642ms
+2026-04-02 16:46:46.977 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 16:46:47.021 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 44.2273ms
+2026-04-02 16:46:47.118 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 16:46:47.127 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 16:46:47.132 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 304 null null 5.5336ms
+2026-04-02 16:46:47.145 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 27.0231ms
+2026-04-02 16:46:58.953 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 54
+2026-04-02 16:46:59.042 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-02 16:46:59.047 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 16:46:59.056 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 16:46:59.082 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-02 16:46:59.129 +03:00 [INF] Executing UnauthorizedObjectResult, writing value of type 'System.String'.
+2026-04-02 16:46:59.141 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 48.2761ms
+2026-04-02 16:46:59.144 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 16:46:59.148 +03:00 [INF] HTTP POST /api/Auth responded 401 in 92.1418 ms
+2026-04-02 16:46:59.151 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 401 null text/plain; charset=utf-8 198.205ms
+2026-04-02 16:47:03.090 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 53
+2026-04-02 16:47:03.099 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 16:47:03.102 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 16:47:03.104 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-02 16:47:03.144 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-02 16:47:03.152 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 43.0809ms
+2026-04-02 16:47:03.156 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 16:47:03.159 +03:00 [INF] HTTP POST /api/Auth responded 200 in 56.9303 ms
+2026-04-02 16:47:03.162 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 200 null application/json; charset=utf-8 72.956ms
+2026-04-02 16:49:33.993 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-02 16:49:34.235 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-02 16:49:34.301 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-02 16:49:34.304 +03:00 [INF] Hosting environment: Development
+2026-04-02 16:49:34.305 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-02 16:49:36.632 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 16:49:36.863 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 304 null null 235.1854ms
+2026-04-02 16:49:36.883 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - null null
+2026-04-02 16:49:36.887 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.css - null null
+2026-04-02 16:49:36.892 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 16:49:36.888 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - null null
+2026-04-02 16:49:36.897 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-02 16:49:36.930 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.js - null null
+2026-04-02 16:49:36.950 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 57.296ms
+2026-04-02 16:49:36.970 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.js - 304 null null 72.2355ms
+2026-04-02 16:49:36.972 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.css - 304 null null 84.5403ms
+2026-04-02 16:49:36.972 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - 304 null null 84.6413ms
+2026-04-02 16:49:36.972 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - 304 null null 89.4914ms
+2026-04-02 16:49:36.974 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - 304 null null 76.6304ms
+2026-04-02 16:49:36.980 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 16:49:37.048 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 68.6559ms
+2026-04-02 16:49:37.095 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 16:49:37.099 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 16:49:37.104 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 304 null null 4.2043ms
+2026-04-02 16:49:37.120 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.4304ms
+2026-04-02 16:49:44.780 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 53
+2026-04-02 16:49:44.853 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-02 16:49:44.858 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 16:49:44.866 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 16:49:44.885 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-02 16:49:44.952 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-02 16:49:44.965 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 71.1104ms
+2026-04-02 16:49:44.969 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 16:49:44.974 +03:00 [INF] HTTP POST /api/Auth responded 200 in 107.5565 ms
+2026-04-02 16:49:44.979 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 200 null application/json; charset=utf-8 198.908ms
+2026-04-02 18:03:12.875 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-02 18:03:13.169 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-02 18:03:13.260 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-02 18:03:13.261 +03:00 [INF] Hosting environment: Development
+2026-04-02 18:03:13.262 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-02 18:03:23.344 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 18:03:23.653 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 314.7675ms
+2026-04-02 18:03:23.696 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-02 18:03:23.696 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - null null
+2026-04-02 18:03:23.696 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.js - null null
+2026-04-02 18:03:23.696 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.css - null null
+2026-04-02 18:03:23.744 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.js - 304 null null 46.6498ms
+2026-04-02 18:03:23.729 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - null null
+2026-04-02 18:03:23.726 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 18:03:23.782 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.css - 304 null null 120.2177ms
+2026-04-02 18:03:23.782 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - 304 null null 87.1874ms
+2026-04-02 18:03:23.782 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - 304 null null 54.0098ms
+2026-04-02 18:03:23.783 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - 304 null null 119.5251ms
+2026-04-02 18:03:23.789 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 92.7621ms
+2026-04-02 18:03:23.858 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 18:03:23.920 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 61.5092ms
+2026-04-02 18:03:23.976 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 18:03:23.986 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 18:03:23.998 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 200 628 image/png 11.6818ms
+2026-04-02 18:03:24.008 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.6616ms
+2026-04-02 18:03:35.365 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product - null null
+2026-04-02 18:03:35.451 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-04-02 18:03:35.461 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-04-02 18:03:35.464 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product - 401 0 null 99.3356ms
+2026-04-02 18:12:08.793 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-02 18:12:09.066 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-02 18:12:09.141 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-02 18:12:09.144 +03:00 [INF] Hosting environment: Development
+2026-04-02 18:12:09.146 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-02 18:12:09.348 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 18:12:09.609 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 301.791ms
+2026-04-02 18:12:09.617 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.css - null null
+2026-04-02 18:12:09.656 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - null null
+2026-04-02 18:12:09.656 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 18:12:09.662 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - null null
+2026-04-02 18:12:09.656 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-02 18:12:09.657 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.js - null null
+2026-04-02 18:12:09.683 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 26.2867ms
+2026-04-02 18:12:09.712 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.css - 200 152 text/css 96.7392ms
+2026-04-02 18:12:09.712 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - 200 23647 text/css 50.2445ms
+2026-04-02 18:12:09.705 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.js - 200 null application/javascript;charset=utf-8 48.3037ms
+2026-04-02 18:12:09.719 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - 200 77352 text/javascript 63.5093ms
+2026-04-02 18:12:09.735 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - 200 424767 text/javascript 79.0612ms
+2026-04-02 18:12:09.792 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 18:12:09.846 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 54.3689ms
+2026-04-02 18:12:09.981 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 18:12:10.000 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.0484ms
+2026-04-02 18:12:10.012 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 18:12:10.016 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 304 null null 4.5524ms
+2026-04-02 18:12:16.722 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product - null null
+2026-04-02 18:12:16.802 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-04-02 18:12:16.812 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-04-02 18:12:16.814 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product - 401 0 null 92.967ms
+2026-04-02 18:12:26.521 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 53
+2026-04-02 18:12:26.534 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-02 18:12:26.540 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:12:26.549 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:12:26.574 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-02 18:12:26.644 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-02 18:12:26.657 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 72.4201ms
+2026-04-02 18:12:26.660 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:12:26.664 +03:00 [INF] HTTP POST /api/Auth responded 200 in 115.5515 ms
+2026-04-02 18:12:26.668 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 200 null application/json; charset=utf-8 147.9087ms
+2026-04-02 18:13:17.269 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product - null null
+2026-04-02 18:13:17.324 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenNoExpirationException: IDX10225: Lifetime validation failed. The token is missing an Expiration Time. Tokentype: 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-04-02 18:13:17.360 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10225: Lifetime validation failed. The token is missing an Expiration Time. Tokentype: 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken'.
+2026-04-02 18:13:17.364 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-04-02 18:13:17.367 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-04-02 18:13:17.369 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product - 401 0 null 100.3413ms
+2026-04-02 18:13:40.752 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product - null null
+2026-04-02 18:13:40.760 +03:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.Decode(ReadOnlySpan`1 strSpan, Span`1 output)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-04-02 18:13:40.765 +03:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2026-04-02 18:13:40.770 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-04-02 18:13:40.775 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-04-02 18:13:40.778 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product - 401 0 null 25.8941ms
+2026-04-02 18:13:41.680 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product - null null
+2026-04-02 18:13:41.688 +03:00 [INF] Failed to validate the token.
+System.ArgumentException: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+ ---> System.FormatException: IDX10400: Unable to decode: '[PII of type 'System.String' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64url encoded string.
+   at Microsoft.IdentityModel.Tokens.Base64UrlEncoder.Decode(ReadOnlySpan`1 strSpan, Span`1 output)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.CreateClaimSet(ReadOnlySpan`1 strSpan, Int32 startIndex, Int32 length, Boolean createHeaderClaimSet)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   --- End of inner exception stack trace ---
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken.ReadToken(ReadOnlyMemory`1 encodedTokenMemory)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebToken..ctor(String jwtEncodedString, TryReadJwtClaim tryReadJwtClaim)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ReadToken(String token, TokenValidationParameters validationParameters)
+2026-04-02 18:13:41.693 +03:00 [INF] Bearer was not authenticated. Failure message: IDX14102: Unable to decode the header '[PII of type 'Microsoft.IdentityModel.Logging.SecurityArtifact' is hidden. For more details, see https://aka.ms/IdentityModel/PII.]' as Base64Url encoded string.
+2026-04-02 18:13:41.695 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-04-02 18:13:41.696 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-04-02 18:13:41.698 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product - 401 0 null 18.3151ms
+2026-04-02 18:13:55.125 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product - null null
+2026-04-02 18:13:55.132 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenNoExpirationException: IDX10225: Lifetime validation failed. The token is missing an Expiration Time. Tokentype: 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-04-02 18:13:55.138 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10225: Lifetime validation failed. The token is missing an Expiration Time. Tokentype: 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken'.
+2026-04-02 18:13:55.140 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-04-02 18:13:55.143 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-04-02 18:13:55.145 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product - 401 0 null 20.6838ms
+2026-04-02 18:14:10.858 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 53
+2026-04-02 18:14:10.864 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:14:10.866 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:14:10.869 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-02 18:14:10.876 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-02 18:14:10.880 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 5.7267ms
+2026-04-02 18:14:10.884 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:14:10.887 +03:00 [INF] HTTP POST /api/Auth responded 200 in 21.7718 ms
+2026-04-02 18:14:10.891 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 200 null application/json; charset=utf-8 33.2474ms
+2026-04-02 18:14:42.113 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 53
+2026-04-02 18:14:42.117 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:14:42.118 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:14:42.120 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-02 18:14:42.124 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-02 18:14:42.127 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 4.1386ms
+2026-04-02 18:14:42.130 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:14:42.133 +03:00 [INF] HTTP POST /api/Auth responded 200 in 15.2834 ms
+2026-04-02 18:14:42.137 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 200 null application/json; charset=utf-8 59.4271ms
+2026-04-02 18:14:46.788 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 53
+2026-04-02 18:14:46.794 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:14:46.796 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:14:46.799 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-02 18:14:46.802 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-02 18:14:46.804 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 2.4046ms
+2026-04-02 18:14:46.806 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:14:46.809 +03:00 [INF] HTTP POST /api/Auth responded 200 in 12.5837 ms
+2026-04-02 18:14:46.813 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 200 null application/json; charset=utf-8 24.6235ms
+2026-04-02 18:16:20.577 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-02 18:16:20.829 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-02 18:16:20.904 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-02 18:16:20.906 +03:00 [INF] Hosting environment: Development
+2026-04-02 18:16:20.908 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-02 18:16:23.575 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 53
+2026-04-02 18:16:23.686 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-02 18:16:23.692 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:16:23.700 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:16:23.719 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-02 18:16:23.806 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-02 18:16:23.821 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 93.3501ms
+2026-04-02 18:16:23.826 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:16:23.831 +03:00 [INF] HTTP POST /api/Auth responded 200 in 131.2953 ms
+2026-04-02 18:16:23.838 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 200 null application/json; charset=utf-8 269.5054ms
+2026-04-02 18:16:36.251 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 18:16:36.438 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 187.8322ms
+2026-04-02 18:16:36.445 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - null null
+2026-04-02 18:16:36.450 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.css - null null
+2026-04-02 18:16:36.451 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - null null
+2026-04-02 18:16:36.458 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.js - null null
+2026-04-02 18:16:36.456 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-02 18:16:36.478 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.js - 200 null application/javascript;charset=utf-8 21.3816ms
+2026-04-02 18:16:36.476 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.css - 304 null null 25.2817ms
+2026-04-02 18:16:36.478 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - 200 23647 text/css 32.9749ms
+2026-04-02 18:16:36.466 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 18:16:36.513 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - 200 77352 text/javascript 57.0942ms
+2026-04-02 18:16:36.513 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - 200 424767 text/javascript 62.5321ms
+2026-04-02 18:16:36.522 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 59.0745ms
+2026-04-02 18:16:36.601 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 18:16:36.642 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 41.9252ms
+2026-04-02 18:16:36.827 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 18:16:36.843 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 18:16:36.850 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 304 null null 6.4899ms
+2026-04-02 18:16:36.852 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.6936ms
+2026-04-02 18:16:49.391 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 53
+2026-04-02 18:16:49.400 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:16:49.402 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:16:49.406 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-02 18:16:49.412 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-02 18:16:49.414 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 4.0661ms
+2026-04-02 18:16:49.417 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:16:49.418 +03:00 [INF] HTTP POST /api/Auth responded 200 in 16.0252 ms
+2026-04-02 18:16:49.422 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 200 null application/json; charset=utf-8 30.4726ms
+2026-04-02 18:17:04.521 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product - null null
+2026-04-02 18:17:04.569 +03:00 [INF] Failed to validate the token.
+Microsoft.IdentityModel.Tokens.SecurityTokenNoExpirationException: IDX10225: Lifetime validation failed. The token is missing an Expiration Time. Tokentype: 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken'.
+   at Microsoft.IdentityModel.Tokens.ValidatorUtilities.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.Tokens.Validators.ValidateLifetime(Nullable`1 notBefore, Nullable`1 expires, SecurityToken securityToken, TokenValidationParameters validationParameters)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateTokenPayloadAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+   at Microsoft.IdentityModel.JsonWebTokens.JsonWebTokenHandler.ValidateJWSAsync(JsonWebToken jsonWebToken, TokenValidationParameters validationParameters, BaseConfiguration configuration)
+2026-04-02 18:17:04.594 +03:00 [INF] Bearer was not authenticated. Failure message: IDX10225: Lifetime validation failed. The token is missing an Expiration Time. Tokentype: 'Microsoft.IdentityModel.JsonWebTokens.JsonWebToken'.
+2026-04-02 18:17:04.604 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-04-02 18:17:04.611 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-04-02 18:17:04.614 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product - 401 0 null 93.5923ms
+2026-04-02 18:18:03.980 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-02 18:18:04.247 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-02 18:18:04.308 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 18:18:04.340 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-02 18:18:04.341 +03:00 [INF] Hosting environment: Development
+2026-04-02 18:18:04.343 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-02 18:18:04.593 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 291.8649ms
+2026-04-02 18:18:04.603 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 18:18:04.603 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 18:18:04.613 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 11.728ms
+2026-04-02 18:18:04.646 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.3975ms
+2026-04-02 18:18:04.979 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 18:18:04.990 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 18:18:05.003 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 24.5843ms
+2026-04-02 18:18:05.015 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 304 null null 24.6283ms
+2026-04-02 18:18:19.025 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 53
+2026-04-02 18:18:19.138 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-02 18:18:19.144 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:18:19.156 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:18:19.182 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-02 18:18:19.271 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-02 18:18:19.282 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 90.9739ms
+2026-04-02 18:18:19.286 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:18:19.291 +03:00 [INF] HTTP POST /api/Auth responded 200 in 136.5799 ms
+2026-04-02 18:18:19.296 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 200 null application/json; charset=utf-8 270.5073ms
+2026-04-02 18:18:26.743 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product - null null
+2026-04-02 18:18:26.814 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:18:26.817 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-02 18:18:26.821 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-02 18:18:27.584 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-02 18:18:27.788 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-04-02 18:18:27.793 +03:00 [INF] GetAll fetched at: "2026-04-02T18:18:27.7931555+03:00"
+2026-04-02 18:18:28.603 +03:00 [INF] Executed DbCommand (45ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-02 18:18:28.713 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-02 18:18:28.723 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 1898.4214ms
+2026-04-02 18:18:28.727 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-02 18:18:28.729 +03:00 [INF] HTTP GET /api/Product responded 200 in 1912.6250 ms
+2026-04-02 18:18:28.744 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product - 200 null application/json; charset=utf-8 2000.6125ms
+2026-04-02 18:18:35.158 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAllFiltered?page=1&pageSize=2 - null null
+2026-04-02 18:18:35.171 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:18:35.173 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAllFiltered (NetCoreWebApiDemo)'
+2026-04-02 18:18:35.182 +03:00 [INF] Route matched with {action = "GetAllFiltered", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAllFiltered(Int32, Int32, System.String, System.String) on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-02 18:18:35.421 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*)
+FROM [Products] AS [p]
+2026-04-02 18:18:35.498 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[@p='?' (DbType = Int32), @p1='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+ORDER BY [p].[Id]
+OFFSET @p ROWS FETCH NEXT @p1 ROWS ONLY
+2026-04-02 18:18:35.505 +03:00 [INF] Executing OkObjectResult, writing value of type 'NetCoreWebApiDemo.Models.Result`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-02 18:18:35.511 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAllFiltered (NetCoreWebApiDemo) in 320.9046ms
+2026-04-02 18:18:35.514 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAllFiltered (NetCoreWebApiDemo)'
+2026-04-02 18:18:35.517 +03:00 [INF] HTTP GET /api/Product/GetAllFiltered responded 200 in 343.2808 ms
+2026-04-02 18:18:35.520 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAllFiltered?page=1&pageSize=2 - 200 null application/json; charset=utf-8 362.3047ms
+2026-04-02 18:21:13.656 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 18:21:13.678 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 22.2064ms
+2026-04-02 18:21:13.685 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 18:21:13.695 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 10.7865ms
+2026-04-02 18:21:13.709 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 18:21:13.713 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 18:21:13.720 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 6.5086ms
+2026-04-02 18:21:13.729 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.css - null null
+2026-04-02 18:21:13.730 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 18:21:13.745 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 18:21:13.747 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.css - 304 null null 19.0099ms
+2026-04-02 18:21:13.750 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 40.6496ms
+2026-04-02 18:21:13.756 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 13.814ms
+2026-04-02 18:21:13.759 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 28.8846ms
+2026-04-02 18:21:13.971 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 18:21:13.979 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 18:21:13.989 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 304 null null 9.4257ms
+2026-04-02 18:21:13.994 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 23.0355ms
+2026-04-02 18:21:14.211 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 18:21:14.221 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 10.683ms
+2026-04-02 18:21:14.226 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 18:21:14.231 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 304 null null 4.685ms
+2026-04-02 18:21:20.927 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product - null null
+2026-04-02 18:21:20.935 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:21:20.938 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-02 18:21:20.942 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-02 18:22:21.904 +03:00 [INF] GetAll fetched at: "2026-04-02T18:22:21.8588827+03:00"
+2026-04-02 18:22:21.967 +03:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-02 18:22:21.972 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-02 18:22:21.976 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 61029.5297ms
+2026-04-02 18:22:21.978 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-02 18:22:21.981 +03:00 [INF] HTTP GET /api/Product responded 200 in 61042.5231 ms
+2026-04-02 18:22:21.983 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product - 200 null application/json; charset=utf-8 61056.8673ms
+2026-04-02 18:22:22.885 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 18:22:22.897 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 12.7809ms
+2026-04-02 18:22:22.904 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 18:22:22.911 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 6.743ms
+2026-04-02 18:22:22.951 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.css - null null
+2026-04-02 18:22:22.954 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 18:22:22.955 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 18:22:22.959 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.css - 304 null null 7.9074ms
+2026-04-02 18:22:22.972 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 17.2745ms
+2026-04-02 18:22:22.979 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 18:22:22.985 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 18:22:22.993 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 14.4336ms
+2026-04-02 18:22:22.997 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 43.7058ms
+2026-04-02 18:22:23.001 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 15.8814ms
+2026-04-02 18:22:23.134 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 18:22:23.147 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 18:22:23.150 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 304 null null 3.4199ms
+2026-04-02 18:22:23.154 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.1926ms
+2026-04-02 18:22:23.157 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 18:22:23.159 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 18:22:23.169 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 304 null null 10.5921ms
+2026-04-02 18:22:23.171 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.7948ms
+2026-04-02 18:22:35.995 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 53
+2026-04-02 18:22:36.001 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:22:36.004 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:22:36.008 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-02 18:22:36.015 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-02 18:22:36.020 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 8.1318ms
+2026-04-02 18:22:36.023 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:22:36.025 +03:00 [INF] HTTP POST /api/Auth responded 200 in 21.7542 ms
+2026-04-02 18:22:36.028 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 200 null application/json; charset=utf-8 33.1508ms
+2026-04-02 18:22:59.348 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product - null null
+2026-04-02 18:22:59.358 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:22:59.360 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-02 18:22:59.364 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-02 18:25:13.036 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-02 18:25:13.303 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-02 18:25:13.384 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-02 18:25:13.387 +03:00 [INF] Hosting environment: Development
+2026-04-02 18:25:13.390 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-02 18:25:13.546 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 18:25:13.822 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 281.9414ms
+2026-04-02 18:25:13.832 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 18:25:13.832 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 18:25:13.845 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 13.3898ms
+2026-04-02 18:25:13.888 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 57.5573ms
+2026-04-02 18:25:14.062 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 18:25:14.075 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 18:25:14.096 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 33.9167ms
+2026-04-02 18:25:14.110 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 304 null null 35.5938ms
+2026-04-02 18:25:17.640 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product - null null
+2026-04-02 18:25:17.776 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-02 18:25:17.781 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:25:17.790 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-02 18:25:17.805 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-02 18:25:18.455 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-02 18:25:18.663 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-04-02 18:25:39.519 +03:00 [INF] GetAll fetched at: "2026-04-02T18:25:39.5188749+03:00"
+2026-04-02 18:25:40.447 +03:00 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-02 18:25:40.477 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 18:25:40.492 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 14.5569ms
+2026-04-02 18:25:40.498 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-02 18:25:40.511 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 13.3935ms
+2026-04-02 18:25:40.528 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.css - null null
+2026-04-02 18:25:40.540 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 18:25:40.541 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 18:25:40.543 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.css - 304 null null 15.6528ms
+2026-04-02 18:25:40.548 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 8.2373ms
+2026-04-02 18:25:40.576 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 35.0679ms
+2026-04-02 18:25:40.605 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-02 18:25:40.613 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-02 18:25:40.645 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 40.6153ms
+2026-04-02 18:25:40.731 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 118.0043ms
+2026-04-02 18:25:40.872 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-02 18:25:40.918 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 18:25:40.939 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 21.0296ms
+2026-04-02 18:25:40.971 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 18:25:40.977 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 304 null null 6.0181ms
+2026-04-02 18:25:41.002 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 23143.1386ms
+2026-04-02 18:25:41.004 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-02 18:25:41.011 +03:00 [INF] HTTP GET /api/Product responded 200 in 23219.3788 ms
+2026-04-02 18:25:41.032 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product - 499 null application/json; charset=utf-8 23392.369ms
+2026-04-02 18:25:41.126 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-02 18:25:41.140 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.7131ms
+2026-04-02 18:25:41.146 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-02 18:25:41.153 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 304 null null 7.1798ms

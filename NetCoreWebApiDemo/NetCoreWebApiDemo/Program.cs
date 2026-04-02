@@ -1,6 +1,10 @@
 using CorrelationId;
 using CorrelationId.DependencyInjection;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi;
+using Microsoft.OpenApi.Models;
 using NetCoreWebApiDemo;
 using NetCoreWebApiDemo.Filters;
 using NetCoreWebApiDemo.Middlewares;
@@ -10,6 +14,7 @@ using NetCoreWebApiDemo.Repositories;
 using NetCoreWebApiDemo.Services;
 using Serilog;
 using System.Reflection;
+using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -25,11 +30,13 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 
+builder.Services.AddAuthorization();
 //builder.Services.AddControllers(options =>
 //{
 //    options.Filters.Add<GlobalExceptionFilter>();
 //});
 builder.Services.AddControllers();
+builder.Services.AddSingleton<JwtService>();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 var env = builder.Environment;
@@ -43,6 +50,29 @@ builder.Services.AddSwaggerGen(options =>
     var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
     options.IncludeXmlComments(xmlPath);
+    options.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        Scheme = "Bearer",
+        BearerFormat = "JWT",
+        In = ParameterLocation.Header,
+        Description = "Format : Bearer {token}"
+    });
+    options.AddSecurityRequirement(new OpenApiSecurityRequirement
+    {
+        {
+            new OpenApiSecurityScheme
+            {
+                Reference = new OpenApiReference
+                {
+                    Type = ReferenceType.SecurityScheme,
+                    Id = "Bearer"
+                }
+            },
+            new string[] {}
+        }
+    });
 });
 builder.Services.AddAutoMapper(cfg =>
 {
@@ -78,6 +108,23 @@ builder.Services.AddDefaultCorrelationId(options =>
     options.AddToLoggingScope = true;
 });
 
+var key = Encoding.UTF8.GetBytes(builder.Configuration["Jwt:Key"]);
+
+builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
+    .AddJwtBearer(options =>
+    {
+        options.TokenValidationParameters = new TokenValidationParameters
+        {
+            ValidateIssuer = true,
+            ValidateAudience = true,
+            ValidateLifetime = true,
+            ValidateIssuerSigningKey = true,
+            ValidIssuer = builder.Configuration["Jwt:Issuer"],
+            ValidAudience = builder.Configuration["Jwt:Audience"],
+            IssuerSigningKey = new SymmetricSecurityKey(key)
+        };
+    });
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -90,6 +137,10 @@ if (app.Environment.IsDevelopment())
 
 _ = app.Services.GetRequiredService<ConfigMonitorService>();
 
+app.UseAuthentication();
+
+app.UseAuthorization(); 
+
 app.UseHttpsRedirection();
 
 app.UseCorrelationId();
@@ -97,8 +148,6 @@ app.UseCorrelationId();
 app.UseMiddleware<ExceptionMiddleware>();
 
 app.UseSerilogRequestLogging();
-
-app.UseAuthorization();
 
 app.MapControllers();
 
