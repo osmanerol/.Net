@@ -373,3 +373,858 @@ FROM [Products] AS [p]
 2026-04-03 17:17:48.280 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
 2026-04-03 17:17:48.282 +03:00 [INF] HTTP GET /api/Product/GetAll/2 responded 200 in 28.8114 ms
 2026-04-03 17:17:48.286 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/2 - 200 null application/json; charset=utf-8 42.0424ms
+2026-04-03 17:49:49.237 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-03 17:49:49.661 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-03 17:49:50.005 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-03 17:49:50.007 +03:00 [INF] Hosting environment: Development
+2026-04-03 17:49:50.009 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-03 17:50:19.109 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-03 17:50:19.390 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 287.703ms
+2026-04-03 17:50:19.401 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - null null
+2026-04-03 17:50:19.402 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-03 17:50:19.408 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - null null
+2026-04-03 17:50:19.401 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.css - null null
+2026-04-03 17:50:19.424 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 22.1166ms
+2026-04-03 17:50:19.401 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - null null
+2026-04-03 17:50:19.452 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.css - 200 152 text/css 56.324ms
+2026-04-03 17:50:19.452 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui.css - 200 23647 text/css 43.6289ms
+2026-04-03 17:50:19.402 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.js - null null
+2026-04-03 17:50:19.475 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-bundle.js - 200 424767 text/javascript 78.187ms
+2026-04-03 17:50:19.475 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/swagger-ui-standalone-preset.js - 200 77352 text/javascript 78.1873ms
+2026-04-03 17:50:19.480 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.js - 200 null application/javascript;charset=utf-8 78.5943ms
+2026-04-03 17:50:19.578 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-03 17:50:19.643 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 64.8666ms
+2026-04-03 17:50:19.755 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-03 17:50:19.775 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 19.9781ms
+2026-04-03 17:50:19.791 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
+2026-04-03 17:50:19.799 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 200 628 image/png 7.8354ms
+2026-04-03 17:51:11.279 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 48
+2026-04-03 17:51:11.355 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-03 17:51:11.361 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:51:11.369 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-03 17:51:11.388 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-03 17:51:11.450 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-03 17:51:11.464 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 67.1579ms
+2026-04-03 17:51:11.468 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-03 17:51:11.472 +03:00 [INF] HTTP POST /api/Auth responded 200 in 103.8360 ms
+2026-04-03 17:51:11.480 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 200 null application/json; charset=utf-8 200.6228ms
+2026-04-03 17:51:23.247 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:51:23.326 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:51:23.329 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:51:23.334 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:51:23.980 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-03 17:51:24.156 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-04-03 17:51:24.166 +03:00 [INF] GetAll fetched at: "2026-04-03T17:51:24.1658241+03:00"
+2026-04-03 17:51:24.868 +03:00 [INF] Executed DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:51:24.973 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:51:24.986 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 1647.6479ms
+2026-04-03 17:51:24.990 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:51:24.993 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 1663.9811 ms
+2026-04-03 17:51:25.007 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 1760.1801ms
+2026-04-03 17:51:26.168 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:51:26.182 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:51:26.184 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:51:26.186 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:51:26.263 +03:00 [INF] GetAll fetched at: "2026-04-03T17:51:26.2639217+03:00"
+2026-04-03 17:51:26.278 +03:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:51:26.284 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:51:26.287 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 96.6619ms
+2026-04-03 17:51:26.290 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:51:26.293 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 109.0137 ms
+2026-04-03 17:51:26.296 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 127.7335ms
+2026-04-03 17:51:26.995 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:51:27.005 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:51:27.008 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:51:27.009 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:51:27.031 +03:00 [INF] GetAll fetched at: "2026-04-03T17:51:27.0317429+03:00"
+2026-04-03 17:51:27.035 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:51:27.041 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:51:27.044 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 31.5306ms
+2026-04-03 17:51:27.046 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:51:27.048 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 40.3080 ms
+2026-04-03 17:51:27.050 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 54.9656ms
+2026-04-03 17:51:27.520 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:51:27.527 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:51:27.528 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:51:27.530 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:51:27.534 +03:00 [INF] GetAll fetched at: "2026-04-03T17:51:27.5344025+03:00"
+2026-04-03 17:51:27.536 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:51:27.541 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:51:27.544 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 10.7997ms
+2026-04-03 17:51:27.546 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:51:27.549 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 20.0987 ms
+2026-04-03 17:51:27.552 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 31.7761ms
+2026-04-03 17:51:27.972 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:51:27.979 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:51:27.981 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:51:27.983 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:51:27.988 +03:00 [INF] GetAll fetched at: "2026-04-03T17:51:27.9885024+03:00"
+2026-04-03 17:51:27.991 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:51:27.995 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:51:27.999 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 12.45ms
+2026-04-03 17:51:28.002 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:51:28.005 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 23.6014 ms
+2026-04-03 17:51:28.009 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 36.6522ms
+2026-04-03 17:51:28.401 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:51:28.409 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 503 0 null 8.1333ms
+2026-04-03 17:55:41.765 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:55:41.771 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:55:41.773 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:55:41.775 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:55:41.780 +03:00 [INF] GetAll fetched at: "2026-04-03T17:55:41.7809583+03:00"
+2026-04-03 17:55:41.806 +03:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:55:41.811 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:55:41.817 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 38.4694ms
+2026-04-03 17:55:41.822 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:55:41.825 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 51.4042 ms
+2026-04-03 17:55:41.828 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 62.4486ms
+2026-04-03 17:55:41.871 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-03 17:55:41.883 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 11.8459ms
+2026-04-03 17:55:41.916 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-03 17:55:41.925 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-03 17:55:41.933 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 17.1876ms
+2026-04-03 17:55:41.933 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 8.514ms
+2026-04-03 17:55:42.314 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-03 17:55:42.346 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 31.576ms
+2026-04-03 17:55:49.930 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:55:49.938 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:55:49.941 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:55:49.946 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:55:49.950 +03:00 [INF] GetAll fetched at: "2026-04-03T17:55:49.9507120+03:00"
+2026-04-03 17:55:49.973 +03:00 [INF] Executed DbCommand (20ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:55:49.978 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:55:49.980 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 30.2864ms
+2026-04-03 17:55:49.982 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:55:49.984 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 42.4238 ms
+2026-04-03 17:55:49.988 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 57.7815ms
+2026-04-03 17:55:51.955 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:55:51.962 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:55:51.965 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:55:51.967 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:55:51.974 +03:00 [INF] GetAll fetched at: "2026-04-03T17:55:51.9747797+03:00"
+2026-04-03 17:55:51.977 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:55:51.981 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:55:51.983 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 9.5177ms
+2026-04-03 17:55:51.986 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:55:51.988 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 23.0596 ms
+2026-04-03 17:55:51.990 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 35.0468ms
+2026-04-03 17:55:52.386 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:55:52.393 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:55:52.395 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:55:52.397 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:55:52.400 +03:00 [INF] GetAll fetched at: "2026-04-03T17:55:52.4007724+03:00"
+2026-04-03 17:55:52.404 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:55:52.407 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:55:52.409 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 10.089ms
+2026-04-03 17:55:52.413 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:55:52.416 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 20.9018 ms
+2026-04-03 17:55:52.420 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 34.3247ms
+2026-04-03 17:55:52.865 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:55:52.871 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:55:52.874 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:55:52.876 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:55:52.879 +03:00 [INF] GetAll fetched at: "2026-04-03T17:55:52.8799707+03:00"
+2026-04-03 17:55:52.882 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:55:52.886 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:55:52.889 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 10.047ms
+2026-04-03 17:55:52.892 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:55:52.893 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 19.9038 ms
+2026-04-03 17:55:52.896 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 31.368ms
+2026-04-03 17:55:53.248 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:55:53.255 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:55:53.258 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:55:53.260 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:55:53.265 +03:00 [INF] GetAll fetched at: "2026-04-03T17:55:53.2651046+03:00"
+2026-04-03 17:55:53.267 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:55:53.274 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:55:53.277 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 13.6284ms
+2026-04-03 17:55:53.281 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:55:53.283 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 25.1007 ms
+2026-04-03 17:55:53.288 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 40.2127ms
+2026-04-03 17:55:53.752 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:55:53.757 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:55:53.760 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:55:53.762 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:55:53.766 +03:00 [INF] GetAll fetched at: "2026-04-03T17:55:53.7659876+03:00"
+2026-04-03 17:55:53.769 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:55:53.773 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:55:53.776 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 10.9334ms
+2026-04-03 17:55:53.778 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:55:53.780 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 20.0983 ms
+2026-04-03 17:55:53.783 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 30.9623ms
+2026-04-03 17:55:54.459 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:55:54.468 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 503 0 null 8.8016ms
+2026-04-03 17:56:02.839 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-03 17:56:03.276 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-03 17:56:03.367 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-03 17:56:03.369 +03:00 [INF] Hosting environment: Development
+2026-04-03 17:56:03.370 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-03 17:56:03.451 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-03 17:56:03.703 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 262.6389ms
+2026-04-03 17:56:03.708 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-03 17:56:03.712 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-03 17:56:03.716 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 9.6697ms
+2026-04-03 17:56:03.754 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 42.3547ms
+2026-04-03 17:56:03.801 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-03 17:56:03.826 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 25.3017ms
+2026-04-03 17:56:09.475 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:56:09.658 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-03 17:56:09.663 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:56:09.672 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:56:09.689 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:56:10.344 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-03 17:56:10.541 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-04-03 17:56:10.553 +03:00 [INF] GetAll fetched at: "2026-04-03T17:56:10.5534531+03:00"
+2026-04-03 17:56:11.261 +03:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:56:11.375 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:56:11.393 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 1695.1406ms
+2026-04-03 17:56:11.397 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:56:11.402 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 1730.5924 ms
+2026-04-03 17:56:11.420 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 1945.339ms
+2026-04-03 17:56:11.822 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:56:11.847 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:56:11.850 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:56:11.854 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:56:11.944 +03:00 [INF] GetAll fetched at: "2026-04-03T17:56:11.9445067+03:00"
+2026-04-03 17:56:11.954 +03:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:56:11.960 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:56:11.963 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 104.6707ms
+2026-04-03 17:56:11.966 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:56:11.970 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 119.8483 ms
+2026-04-03 17:56:11.974 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 152.4305ms
+2026-04-03 17:56:12.408 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:56:12.421 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:56:12.424 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:56:12.427 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:56:12.447 +03:00 [INF] GetAll fetched at: "2026-04-03T17:56:12.4474656+03:00"
+2026-04-03 17:56:12.452 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:56:12.457 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:56:12.460 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 30.1213ms
+2026-04-03 17:56:12.462 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:56:12.464 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 39.6365 ms
+2026-04-03 17:56:12.467 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 58.8709ms
+2026-04-03 17:56:12.878 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:56:12.885 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:56:12.886 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:56:12.888 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:56:12.892 +03:00 [INF] GetAll fetched at: "2026-04-03T17:56:12.8923682+03:00"
+2026-04-03 17:56:12.894 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:56:12.898 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:56:12.900 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 9.5318ms
+2026-04-03 17:56:12.903 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:56:12.904 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 18.0322 ms
+2026-04-03 17:56:12.907 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 29.4702ms
+2026-04-03 17:56:13.304 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:56:13.311 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 17:56:13.314 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:56:13.318 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 17:56:13.323 +03:00 [INF] GetAll fetched at: "2026-04-03T17:56:13.3230693+03:00"
+2026-04-03 17:56:13.325 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 17:56:13.327 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 17:56:13.329 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 7.9775ms
+2026-04-03 17:56:13.333 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 17:56:13.335 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 21.0742 ms
+2026-04-03 17:56:13.337 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 33.3812ms
+2026-04-03 17:56:13.749 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 17:56:13.758 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 429 null null 8.5028ms
+2026-04-03 18:00:51.613 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-03 18:00:52.107 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-03 18:00:52.190 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-03 18:00:52.194 +03:00 [INF] Hosting environment: Development
+2026-04-03 18:00:52.197 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-03 18:04:32.975 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-03 18:04:33.368 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-03 18:04:33.440 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-03 18:04:33.443 +03:00 [INF] Hosting environment: Development
+2026-04-03 18:04:33.445 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-03 18:04:33.945 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-03 18:04:34.225 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 285.3704ms
+2026-04-03 18:04:34.234 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-03 18:04:34.237 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-03 18:04:34.245 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 14.0418ms
+2026-04-03 18:04:34.290 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 53.3305ms
+2026-04-03 18:04:34.495 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-03 18:04:34.524 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 28.8265ms
+2026-04-03 18:04:47.521 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/Auth - application/json 48
+2026-04-03 18:04:47.651 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-03 18:04:47.656 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:04:47.666 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-03 18:04:47.689 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-03 18:04:47.762 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-03 18:04:47.775 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 77.6373ms
+2026-04-03 18:04:47.778 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-03 18:04:47.784 +03:00 [INF] HTTP POST /api/Auth responded 200 in 119.7025 ms
+2026-04-03 18:04:47.790 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/Auth - 200 null application/json; charset=utf-8 268.9535ms
+2026-04-03 18:05:00.866 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwibmFtZSI6ImFkbWluIiwiY29tcGFueUlkIjoiMSIsImlzcyI6Im9zbWFuZXJvbGFwaSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwicHJvZHVjdCI6InRydWUiLCJleHAiOjE3NzUyMzIyODcsImF1ZCI6Im9zbWFuZXJvbHVpIn0.iO-ZBLUzgrX4Kt1AUGV8YRc2ek9YaKqid99I_Q3wris - null null
+2026-04-03 18:05:00.937 +03:00 [INF] Authorization failed. These requirements were not met:
+NetCoreWebApiDemo.Authorization.Requirement.SameCompanyRequirement
+2026-04-03 18:05:00.949 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-04-03 18:05:00.956 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxIiwibmFtZSI6ImFkbWluIiwiY29tcGFueUlkIjoiMSIsImlzcyI6Im9zbWFuZXJvbGFwaSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwicHJvZHVjdCI6InRydWUiLCJleHAiOjE3NzUyMzIyODcsImF1ZCI6Im9zbWFuZXJvbHVpIn0.iO-ZBLUzgrX4Kt1AUGV8YRc2ek9YaKqid99I_Q3wris - 403 0 null 90.3591ms
+2026-04-03 18:05:07.182 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1.eyJzdWIiOiIxIiwibmFtZSI6ImFkbWluIiwiY29tcGFueUlkIjoiMSIsImlzcyI6Im9zbWFuZXJvbGFwaSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwicHJvZHVjdCI6InRydWUiLCJleHAiOjE3NzUyMzIyODcsImF1ZCI6Im9zbWFuZXJvbHVpIn0.iO-ZBLUzgrX4Kt1AUGV8YRc2ek9YaKqid99I_Q3wris - null null
+2026-04-03 18:05:07.195 +03:00 [INF] Authorization failed. These requirements were not met:
+NetCoreWebApiDemo.Authorization.Requirement.SameCompanyRequirement
+2026-04-03 18:05:07.198 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-04-03 18:05:07.201 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1.eyJzdWIiOiIxIiwibmFtZSI6ImFkbWluIiwiY29tcGFueUlkIjoiMSIsImlzcyI6Im9zbWFuZXJvbGFwaSIsImh0dHA6Ly9zY2hlbWFzLm1pY3Jvc29mdC5jb20vd3MvMjAwOC8wNi9pZGVudGl0eS9jbGFpbXMvcm9sZSI6IkFkbWluIiwicHJvZHVjdCI6InRydWUiLCJleHAiOjE3NzUyMzIyODcsImF1ZCI6Im9zbWFuZXJvbHVpIn0.iO-ZBLUzgrX4Kt1AUGV8YRc2ek9YaKqid99I_Q3wris - 403 0 null 19.3978ms
+2026-04-03 18:05:08.785 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:08.803 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: This endpoint requires a rate limiting policy with name user-sliding, but no such policy exists.
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.<CreateEndpointLimiter>b__15_0(HttpContext context)
+   at System.Threading.RateLimiting.DefaultPartitionedRateLimiter`2.GetRateLimiter(TResource resource)
+   at System.Threading.RateLimiting.DefaultPartitionedRateLimiter`2.AttemptAcquireCore(TResource resource, Int32 permitCount)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.CombinedAcquire(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.TryAcquireAsync(HttpContext context, MetricsContext metricsContext)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-04-03 18:05:08.854 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 500 null text/plain; charset=utf-8 69.2185ms
+2026-04-03 18:05:10.211 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:10.221 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: This endpoint requires a rate limiting policy with name user-sliding, but no such policy exists.
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.<CreateEndpointLimiter>b__15_0(HttpContext context)
+   at System.Threading.RateLimiting.DefaultPartitionedRateLimiter`2.GetRateLimiter(TResource resource)
+   at System.Threading.RateLimiting.DefaultPartitionedRateLimiter`2.AttemptAcquireCore(TResource resource, Int32 permitCount)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.CombinedAcquire(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.TryAcquireAsync(HttpContext context, MetricsContext metricsContext)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-04-03 18:05:10.239 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 500 null text/plain; charset=utf-8 27.7096ms
+2026-04-03 18:05:11.298 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/2 - null null
+2026-04-03 18:05:11.306 +03:00 [INF] Authorization failed. These requirements were not met:
+NetCoreWebApiDemo.Authorization.Requirement.SameCompanyRequirement
+2026-04-03 18:05:11.309 +03:00 [INF] AuthenticationScheme: Bearer was forbidden.
+2026-04-03 18:05:11.311 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/2 - 403 0 null 12.8028ms
+2026-04-03 18:05:12.680 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:12.690 +03:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: This endpoint requires a rate limiting policy with name user-sliding, but no such policy exists.
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.<CreateEndpointLimiter>b__15_0(HttpContext context)
+   at System.Threading.RateLimiting.DefaultPartitionedRateLimiter`2.GetRateLimiter(TResource resource)
+   at System.Threading.RateLimiting.DefaultPartitionedRateLimiter`2.AttemptAcquireCore(TResource resource, Int32 permitCount)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.CombinedAcquire(HttpContext context)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.TryAcquireAsync(HttpContext context, MetricsContext metricsContext)
+   at Microsoft.AspNetCore.RateLimiting.RateLimitingMiddleware.InvokeInternal(HttpContext context, EnableRateLimitingAttribute enableRateLimitingAttribute)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2026-04-03 18:05:12.707 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 500 null text/plain; charset=utf-8 27.1438ms
+2026-04-03 18:05:31.369 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/index.html - null null
+2026-04-03 18:05:31.380 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/index.html - 200 null text/html;charset=utf-8 10.6651ms
+2026-04-03 18:05:31.401 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_vs/browserLink - null null
+2026-04-03 18:05:31.402 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - null null
+2026-04-03 18:05:31.413 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_framework/aspnetcore-browser-refresh.js - 200 14939 application/javascript; charset=utf-8 10.7204ms
+2026-04-03 18:05:31.423 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/_vs/browserLink - 200 null text/javascript; charset=UTF-8 22.0811ms
+2026-04-03 18:05:31.644 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - null null
+2026-04-03 18:05:31.666 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 22.7482ms
+2026-04-03 18:05:37.683 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:37.692 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:37.696 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:37.700 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:38.306 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-03 18:05:38.501 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-04-03 18:05:38.512 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:38.5120859+03:00"
+2026-04-03 18:05:39.246 +03:00 [INF] Executed DbCommand (43ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:39.355 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:39.367 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 1662.4227ms
+2026-04-03 18:05:39.370 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:39.373 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 1677.4239 ms
+2026-04-03 18:05:39.389 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 1706.1664ms
+2026-04-03 18:05:39.970 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:39.979 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:39.981 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:39.983 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:40.050 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:40.0501059+03:00"
+2026-04-03 18:05:40.061 +03:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:40.067 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:40.070 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 83.8602ms
+2026-04-03 18:05:40.074 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:40.076 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 94.7535 ms
+2026-04-03 18:05:40.078 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 108.7455ms
+2026-04-03 18:05:40.563 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:40.570 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:40.573 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:40.575 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:40.604 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:40.6049352+03:00"
+2026-04-03 18:05:40.610 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:40.615 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:40.617 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 38.2987ms
+2026-04-03 18:05:40.619 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:40.621 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 47.5743 ms
+2026-04-03 18:05:40.623 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 60.4384ms
+2026-04-03 18:05:41.077 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:41.084 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:41.086 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:41.089 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:41.094 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:41.0939949+03:00"
+2026-04-03 18:05:41.096 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:41.101 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:41.103 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 10.4809ms
+2026-04-03 18:05:41.106 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:41.108 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 21.3065 ms
+2026-04-03 18:05:41.110 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 33.9784ms
+2026-04-03 18:05:41.575 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:41.592 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:41.595 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:41.597 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:41.600 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:41.6004106+03:00"
+2026-04-03 18:05:41.604 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:41.609 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:41.611 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 11.8158ms
+2026-04-03 18:05:41.613 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:41.615 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 20.0206 ms
+2026-04-03 18:05:41.617 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 42.3528ms
+2026-04-03 18:05:42.058 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:42.064 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:42.067 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:42.069 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:42.074 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:42.0741116+03:00"
+2026-04-03 18:05:42.076 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:42.080 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:42.083 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 9.8315ms
+2026-04-03 18:05:42.085 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:42.087 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 20.5504 ms
+2026-04-03 18:05:42.090 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 32.781ms
+2026-04-03 18:05:42.540 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:42.547 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:42.549 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:42.552 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:42.556 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:42.5566324+03:00"
+2026-04-03 18:05:42.559 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:42.563 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:42.565 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 9.2544ms
+2026-04-03 18:05:42.568 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:42.570 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 20.4211 ms
+2026-04-03 18:05:42.573 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 33.3381ms
+2026-04-03 18:05:43.005 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:43.012 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:43.014 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:43.016 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:43.021 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:43.0211661+03:00"
+2026-04-03 18:05:43.024 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:43.027 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:43.029 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 9.1546ms
+2026-04-03 18:05:43.032 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:43.033 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 19.2853 ms
+2026-04-03 18:05:43.037 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 32.4756ms
+2026-04-03 18:05:43.464 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:43.470 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:43.473 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:43.475 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:43.479 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:43.4792349+03:00"
+2026-04-03 18:05:43.481 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:43.485 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:43.487 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 9.388ms
+2026-04-03 18:05:43.490 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:43.492 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 18.8464 ms
+2026-04-03 18:05:43.494 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 30.5822ms
+2026-04-03 18:05:43.937 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:43.945 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:43.947 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:43.949 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:43.954 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:43.9539876+03:00"
+2026-04-03 18:05:43.957 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:43.961 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:43.963 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 10.5353ms
+2026-04-03 18:05:43.965 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:43.967 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 20.0887 ms
+2026-04-03 18:05:43.970 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 33.3543ms
+2026-04-03 18:05:44.443 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:44.450 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:44.452 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:44.456 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:44.460 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:44.4603516+03:00"
+2026-04-03 18:05:44.462 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:44.466 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:44.469 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 9.3853ms
+2026-04-03 18:05:44.472 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:44.473 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 21.0973 ms
+2026-04-03 18:05:44.476 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 33.1827ms
+2026-04-03 18:05:44.955 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:44.963 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:44.965 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:44.968 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:44.972 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:44.9721288+03:00"
+2026-04-03 18:05:44.975 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:44.979 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:44.981 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 9.6566ms
+2026-04-03 18:05:44.983 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:44.985 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 20.3084 ms
+2026-04-03 18:05:44.989 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 33.4144ms
+2026-04-03 18:05:45.402 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:45.409 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:45.411 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:45.413 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:45.416 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:45.4168104+03:00"
+2026-04-03 18:05:45.420 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:45.423 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:45.425 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 8.8491ms
+2026-04-03 18:05:45.427 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:45.429 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 17.8668 ms
+2026-04-03 18:05:45.431 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 29.3125ms
+2026-04-03 18:05:47.074 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:47.093 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:47.096 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:47.101 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:47.106 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:47.1060459+03:00"
+2026-04-03 18:05:47.110 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:47.115 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:47.118 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 13.4788ms
+2026-04-03 18:05:47.121 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:47.124 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 27.9325 ms
+2026-04-03 18:05:47.127 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 53.1144ms
+2026-04-03 18:05:47.534 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:47.539 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:47.541 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:47.543 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:47.547 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:47.5478891+03:00"
+2026-04-03 18:05:47.550 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:47.555 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:47.557 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 10.2691ms
+2026-04-03 18:05:47.559 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:47.561 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 20.4050 ms
+2026-04-03 18:05:47.564 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 30.266ms
+2026-04-03 18:05:47.943 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:47.949 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:47.952 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:47.954 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:47.959 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:47.9598492+03:00"
+2026-04-03 18:05:47.963 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:47.967 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:47.970 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 11.3835ms
+2026-04-03 18:05:47.973 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:47.976 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 24.5625 ms
+2026-04-03 18:05:47.979 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 36.0995ms
+2026-04-03 18:05:48.343 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:48.349 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:48.351 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:48.354 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:48.358 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:48.3581638+03:00"
+2026-04-03 18:05:48.361 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:48.364 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:48.367 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 9.7763ms
+2026-04-03 18:05:48.370 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:48.372 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 20.9715 ms
+2026-04-03 18:05:48.375 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 32.3877ms
+2026-04-03 18:05:48.771 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:48.777 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:48.778 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:48.781 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:48.784 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:48.7845225+03:00"
+2026-04-03 18:05:48.788 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:48.792 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:48.794 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 10.3542ms
+2026-04-03 18:05:48.797 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:48.799 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 20.2549 ms
+2026-04-03 18:05:48.803 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 32.6632ms
+2026-04-03 18:05:49.146 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:49.159 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:49.162 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:49.165 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:49.174 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:49.1745939+03:00"
+2026-04-03 18:05:49.177 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:49.180 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:49.182 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 9.9553ms
+2026-04-03 18:05:49.186 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:49.188 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 25.6678 ms
+2026-04-03 18:05:49.191 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 45.2116ms
+2026-04-03 18:05:49.533 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:49.541 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:49.544 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:49.547 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:49.550 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:49.5509500+03:00"
+2026-04-03 18:05:49.553 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:49.556 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:49.558 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 7.9891ms
+2026-04-03 18:05:49.560 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:49.562 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 18.0797 ms
+2026-04-03 18:05:49.564 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 30.5374ms
+2026-04-03 18:05:49.962 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:49.978 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:49.980 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:49.983 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:49.986 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:49.9864575+03:00"
+2026-04-03 18:05:49.989 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:49.992 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:49.994 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 8.9539ms
+2026-04-03 18:05:49.997 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:49.998 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 17.7264 ms
+2026-04-03 18:05:50.001 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 38.5237ms
+2026-04-03 18:05:50.353 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:50.359 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:50.362 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:50.364 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:50.368 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:50.3689033+03:00"
+2026-04-03 18:05:50.371 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:50.374 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:50.376 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 8.3698ms
+2026-04-03 18:05:50.378 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:50.379 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 17.9528 ms
+2026-04-03 18:05:50.382 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 28.524ms
+2026-04-03 18:05:50.805 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:50.811 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:50.814 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:50.815 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:50.819 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:50.8198052+03:00"
+2026-04-03 18:05:50.822 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:50.826 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:50.828 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 9.2864ms
+2026-04-03 18:05:50.831 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:50.832 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 18.6991 ms
+2026-04-03 18:05:50.836 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 31.0116ms
+2026-04-03 18:05:51.221 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:51.228 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:51.230 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:51.232 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:51.236 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:51.2367838+03:00"
+2026-04-03 18:05:51.239 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:51.242 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:51.245 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 9.4775ms
+2026-04-03 18:05:51.248 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:51.250 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 19.5274 ms
+2026-04-03 18:05:51.253 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 31.7248ms
+2026-04-03 18:05:51.618 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:51.624 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:51.626 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:51.628 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:51.633 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:51.6334190+03:00"
+2026-04-03 18:05:51.638 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:51.643 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:51.646 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 13.311ms
+2026-04-03 18:05:51.648 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:51.649 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 23.3128 ms
+2026-04-03 18:05:51.653 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 35.3283ms
+2026-04-03 18:05:52.046 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:52.054 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:52.057 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:52.059 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:52.062 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:52.0629561+03:00"
+2026-04-03 18:05:52.064 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:52.067 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:52.070 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 7.48ms
+2026-04-03 18:05:52.072 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:52.073 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 16.3419 ms
+2026-04-03 18:05:52.076 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 29.8198ms
+2026-04-03 18:05:52.426 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:52.433 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:52.435 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:52.438 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:52.441 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:52.4414897+03:00"
+2026-04-03 18:05:52.443 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:52.446 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:52.448 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 7.8456ms
+2026-04-03 18:05:52.451 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:52.453 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 18.5013 ms
+2026-04-03 18:05:52.456 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 29.7127ms
+2026-04-03 18:05:52.801 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:52.808 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:52.810 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:52.812 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:52.819 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:52.8190650+03:00"
+2026-04-03 18:05:52.822 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:52.825 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:52.828 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 11.0209ms
+2026-04-03 18:05:52.831 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:52.832 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 22.0458 ms
+2026-04-03 18:05:52.836 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 34.7437ms
+2026-04-03 18:05:53.184 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:53.191 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:53.193 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:53.195 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:53.200 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:53.2000547+03:00"
+2026-04-03 18:05:53.202 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:53.206 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:53.207 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 8.4457ms
+2026-04-03 18:05:53.210 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:53.212 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 18.7742 ms
+2026-04-03 18:05:53.214 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 30.5655ms
+2026-04-03 18:05:53.521 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:53.527 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:53.529 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:53.531 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:53.535 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:53.5354754+03:00"
+2026-04-03 18:05:53.538 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:53.541 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:53.543 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 8.8955ms
+2026-04-03 18:05:53.546 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:53.547 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 18.2019 ms
+2026-04-03 18:05:53.550 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 28.8094ms
+2026-04-03 18:05:53.853 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:53.862 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:53.864 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:53.867 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:53.872 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:53.8721145+03:00"
+2026-04-03 18:05:53.887 +03:00 [INF] Executed DbCommand (13ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:53.893 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:53.897 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 25.8803ms
+2026-04-03 18:05:53.901 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:53.904 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 39.4811 ms
+2026-04-03 18:05:53.907 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 53.4983ms
+2026-04-03 18:05:54.163 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:54.168 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:54.171 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:54.173 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:54.178 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:54.1780532+03:00"
+2026-04-03 18:05:54.180 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:54.183 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:54.185 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 8.4493ms
+2026-04-03 18:05:54.188 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:54.189 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 18.0249 ms
+2026-04-03 18:05:54.192 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 28.7575ms
+2026-04-03 18:05:54.385 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:54.390 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:54.393 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:54.394 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:54.398 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:54.3984169+03:00"
+2026-04-03 18:05:54.400 +03:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:54.404 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:54.406 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 8.5674ms
+2026-04-03 18:05:54.408 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:54.410 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 17.4259 ms
+2026-04-03 18:05:54.414 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 29.3713ms
+2026-04-03 18:05:54.560 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:54.574 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:54.576 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:54.581 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:54.585 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:54.5859549+03:00"
+2026-04-03 18:05:54.588 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:54.592 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:54.594 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 8.9083ms
+2026-04-03 18:05:54.596 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:54.598 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 21.8519 ms
+2026-04-03 18:05:54.601 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 41.5382ms
+2026-04-03 18:05:54.690 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:54.696 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-03 18:05:54.699 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:54.702 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-03 18:05:54.706 +03:00 [INF] GetAll fetched at: "2026-04-03T18:05:54.7068809+03:00"
+2026-04-03 18:05:54.709 +03:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-03 18:05:54.713 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-03 18:05:54.716 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 10.0081ms
+2026-04-03 18:05:54.719 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-03 18:05:54.720 +03:00 [INF] HTTP GET /api/Product/GetAll/1 responded 200 in 21.0861 ms
+2026-04-03 18:05:54.723 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 200 null application/json; charset=utf-8 33.1659ms
+2026-04-03 18:05:54.961 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:54.970 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 429 null null 8.782ms
+2026-04-03 18:05:55.175 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:55.184 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 429 null null 9.2372ms
+2026-04-03 18:05:55.291 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:55.298 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 429 null null 6.534ms
+2026-04-03 18:05:55.435 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:55.443 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 429 null null 7.1563ms
+2026-04-03 18:05:55.549 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:55.558 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 429 null null 9.1451ms
+2026-04-03 18:05:59.026 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:59.032 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 429 null null 6.6819ms
+2026-04-03 18:05:59.483 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - null null
+2026-04-03 18:05:59.490 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/GetAll/1 - 429 null null 6.9941ms

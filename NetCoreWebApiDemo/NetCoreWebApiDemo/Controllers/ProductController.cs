@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.RateLimiting;
 using NetCoreWebApiDemo.Exceptions;
 using NetCoreWebApiDemo.Filters;
 using NetCoreWebApiDemo.Models;
@@ -35,6 +36,8 @@ namespace NetCoreWebApiDemo.Controllers
         /// </summary>
         /// <returns></returns>
         [HttpGet("GetAll/{companyId}")]
+        // [EnableRateLimiting("fixed")]
+        // [EnableRateLimiting("user-sliding")]
         // [Authorize(Policy = "Product")]
         // [Authorize(Roles = "Admin")]
         // [ServiceFilter(typeof(WrapResponseFilter))]
