@@ -992,3 +992,38 @@ FROM [Products] AS [p]
 2026-04-02 18:25:41.140 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 14.7131ms
 2026-04-02 18:25:41.146 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - null null
 2026-04-02 18:25:41.153 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/swagger/favicon-32x32.png - 304 null null 7.1798ms
+2026-04-02 18:28:13.001 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-02 18:28:13.428 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-02 18:28:14.183 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-02 18:28:14.208 +03:00 [INF] Hosting environment: Development
+2026-04-02 18:28:14.215 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-02 18:28:14.399 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/product - null null
+2026-04-02 18:28:14.588 +03:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2026-04-02 18:28:14.599 +03:00 [INF] AuthenticationScheme: Bearer was challenged.
+2026-04-02 18:28:14.613 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/product - 401 0 null 222.8168ms
+2026-04-02 18:28:45.378 +03:00 [INF] Request starting HTTP/1.1 POST http://localhost:5078/api/auth - application/json 60
+2026-04-02 18:28:45.618 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-02 18:28:45.669 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:28:45.693 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:28:45.722 +03:00 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login(NetCoreWebApiDemo.Models.LoginRequest) on controller NetCoreWebApiDemo.Controllers.AuthController (NetCoreWebApiDemo).
+2026-04-02 18:28:45.816 +03:00 [INF] Executing OkObjectResult, writing value of type '<>f__AnonymousType0`1[[System.String, System.Private.CoreLib, Version=10.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2026-04-02 18:28:45.827 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo) in 98.2912ms
+2026-04-02 18:28:45.831 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.AuthController.Login (NetCoreWebApiDemo)'
+2026-04-02 18:28:45.836 +03:00 [INF] HTTP POST /api/auth responded 200 in 145.4348 ms
+2026-04-02 18:28:45.841 +03:00 [INF] Request finished HTTP/1.1 POST http://localhost:5078/api/auth - 200 null application/json; charset=utf-8 464.591ms
+2026-04-02 18:29:04.364 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/api/product - null null
+2026-04-02 18:29:04.417 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-02 18:29:04.419 +03:00 [INF] Executing endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-02 18:29:04.424 +03:00 [INF] Route matched with {action = "GetAll", controller = "Product"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult GetAll() on controller NetCoreWebApiDemo.Controllers.ProductController (NetCoreWebApiDemo).
+2026-04-02 18:29:05.085 +03:00 [WRN] No store type was specified for the decimal property 'Price' on entity type 'Product'. This will cause values to be silently truncated if they do not fit in the default precision and scale. Explicitly specify the SQL server column type that can accommodate all the values in 'OnModelCreating' using 'HasColumnType', specify precision and scale using 'HasPrecision', or configure a value converter using 'HasConversion'.
+2026-04-02 18:29:05.299 +03:00 [WRN] You do not have a valid license key for the Lucky Penny software AutoMapper. This is allowed for development and testing scenarios. If you are running in production you are required to have a licensed version. Please visit https://luckypennysoftware.com to obtain a valid license.
+2026-04-02 18:29:05.313 +03:00 [INF] GetAll fetched at: "2026-04-02T18:29:05.3134171+03:00"
+2026-04-02 18:29:06.054 +03:00 [INF] Executed DbCommand (40ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[Id], [p].[Name], [p].[Price], [p].[Stock]
+FROM [Products] AS [p]
+2026-04-02 18:29:06.171 +03:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[NetCoreWebApiDemo.Models.Product.ProductDto, NetCoreWebApiDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2026-04-02 18:29:06.184 +03:00 [INF] Executed action NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo) in 1755.6177ms
+2026-04-02 18:29:06.188 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetAll (NetCoreWebApiDemo)'
+2026-04-02 18:29:06.191 +03:00 [INF] HTTP GET /api/product responded 200 in 1771.9421 ms
+2026-04-02 18:29:06.211 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/product - 200 null application/json; charset=utf-8 1846.6192ms

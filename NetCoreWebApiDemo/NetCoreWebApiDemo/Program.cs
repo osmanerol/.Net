@@ -1,11 +1,14 @@
 using CorrelationId;
 using CorrelationId.DependencyInjection;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi;
 using Microsoft.OpenApi.Models;
 using NetCoreWebApiDemo;
+using NetCoreWebApiDemo.Authorization.Handler;
+using NetCoreWebApiDemo.Authorization.Requirement;
 using NetCoreWebApiDemo.Filters;
 using NetCoreWebApiDemo.Middlewares;
 using NetCoreWebApiDemo.Models;
@@ -30,13 +33,30 @@ Log.Logger = new LoggerConfiguration()
 
 builder.Host.UseSerilog();
 
-builder.Services.AddAuthorization();
+builder.Services.AddAuthorization(options =>
+{
+    options.AddPolicy("Product", policy =>
+    {
+        policy.RequireClaim("product", "true");
+    });
+    options.AddPolicy("AdminProduct", policy =>
+    {
+        policy.RequireRole("Admin");
+        policy.RequireClaim("product", "true");
+    });
+    options.AddPolicy("SameCompanyPolicy", policy =>
+    {
+        policy.Requirements.Add(new SameCompanyRequirement());
+    });
+});
 //builder.Services.AddControllers(options =>
 //{
 //    options.Filters.Add<GlobalExceptionFilter>();
 //});
 builder.Services.AddControllers();
 builder.Services.AddSingleton<JwtService>();
+builder.Services.AddScoped<IAuthorizationHandler, SameCompanyHandler>();
+builder.Services.AddHttpContextAccessor();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Configuration.AddJsonFile("appsettings.json", optional: false, reloadOnChange: true);
 var env = builder.Environment;

@@ -99,6 +99,19 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Microsoft.AspNetCore.Authorization/10.0.5": {
+        "type": "package",
+        "compile": {
+          "lib/net10.0/_._": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net10.0/_._": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
         "type": "package",
         "compile": {
@@ -1446,6 +1459,25 @@
         "lib/net10.0/Microsoft.AspNetCore.Authentication.JwtBearer.xml",
         "microsoft.aspnetcore.authentication.jwtbearer.10.0.5.nupkg.sha512",
         "microsoft.aspnetcore.authentication.jwtbearer.nuspec"
+      ]
+    },
+    "Microsoft.AspNetCore.Authorization/10.0.5": {
+      "sha512": "NbFi4wN6fUvZK4AKmixpfx0IvqtVimKEn8ZX28LkzZBVo09YnLbyRrJ1001IVQDLbV+aYpS/cLhVJu5JD0rY5A==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.authorization/10.0.5",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net10.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net10.0/Microsoft.AspNetCore.Authorization.xml",
+        "lib/net462/Microsoft.AspNetCore.Authorization.dll",
+        "lib/net462/Microsoft.AspNetCore.Authorization.xml",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.dll",
+        "lib/netstandard2.0/Microsoft.AspNetCore.Authorization.xml",
+        "microsoft.aspnetcore.authorization.10.0.5.nupkg.sha512",
+        "microsoft.aspnetcore.authorization.nuspec"
       ]
     },
     "Microsoft.Bcl.AsyncInterfaces/8.0.0": {
@@ -4024,6 +4056,7 @@
       "AutoMapper >= 16.1.1",
       "CorrelationId >= 3.0.1",
       "Microsoft.AspNetCore.Authentication.JwtBearer >= 10.0.5",
+      "Microsoft.AspNetCore.Authorization >= 10.0.5",
       "Microsoft.EntityFrameworkCore >= 10.0.5",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 10.0.5",
@@ -4097,6 +4130,10 @@
             "version": "[3.0.1, )"
           },
           "Microsoft.AspNetCore.Authentication.JwtBearer": {
+            "target": "Package",
+            "version": "[10.0.5, )"
+          },
+          "Microsoft.AspNetCore.Authorization": {
             "target": "Package",
             "version": "[10.0.5, )"
           },
@@ -4585,5 +4622,17 @@
         }
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1510",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "PackageReference Microsoft.AspNetCore.Authorization will not be pruned. Consider removing this package from your dependencies, as it is likely unnecessary.",
+      "libraryId": "Microsoft.AspNetCore.Authorization",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
 }

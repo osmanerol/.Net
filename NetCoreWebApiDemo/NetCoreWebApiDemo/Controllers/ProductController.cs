@@ -11,6 +11,7 @@ using System.Security.Claims;
 namespace NetCoreWebApiDemo.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize(Policy = "SameCompanyPolicy")]
     /*
     [ServiceFilter(typeof(ApiKeyAuthorizationFilter))]
     [ServiceFilter(typeof(ResourceLogFilter))]
@@ -33,11 +34,10 @@ namespace NetCoreWebApiDemo.Controllers
         /// Get all product wihtout filter
         /// </summary>
         /// <returns></returns>
-        [HttpGet]
-        [Authorize]
-        /*
-        [ServiceFilter(typeof(WrapResponseFilter))]
-        */
+        [HttpGet("GetAll/{companyId}")]
+        // [Authorize(Policy = "Product")]
+        // [Authorize(Roles = "Admin")]
+        // [ServiceFilter(typeof(WrapResponseFilter))]
         [ProducesResponseType(typeof(IEnumerable<ProductDto>), 200)]
         [ProducesResponseType(typeof(NoData), 400)]
         public IActionResult GetAll()
@@ -46,6 +46,13 @@ namespace NetCoreWebApiDemo.Controllers
             {
                 var userId = User.FindFirstValue(ClaimTypes.NameIdentifier);
                 var userName = User.FindFirstValue("name");
+                /*
+                var product = User.FindFirstValue("product");
+                if (product != "true")
+                {
+                    return Forbid();
+                }
+                */
                 _logger.LogInformation("GetAll fetched at: {time}", DateTime.Now);
                 return Ok(_productService.GetAll());
             }

@@ -20,9 +20,14 @@ namespace NetCoreWebApiDemo.Controllers
         [HttpPost]
         public IActionResult Login(LoginRequest loginRequest)
         {
-            if(loginRequest.Username == "osman.erol" && loginRequest.Password == "12345")
+            if(loginRequest.Username == "admin" && loginRequest.Password == "12345")
             {
-                var token = _jwtService.GenerateToken("1", loginRequest.Username);
+                var token = _jwtService.GenerateToken("1", loginRequest.Username, "1", true);
+                return Ok(new { token });
+            }
+            else if (loginRequest.Username == "user" && loginRequest.Password == "12345")
+            {
+                var token = _jwtService.GenerateToken("2", loginRequest.Username, "2", false);
                 return Ok(new { token });
             }
             return Unauthorized("Username or password is wrong.");

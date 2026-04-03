@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|solutionrelative:netcorewebapidemo\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|c:\\software\\c#\\netcorewebapidemo\\netcorewebapidemo\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|solutionrelative:netcorewebapidemo\\services\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|c:\\software\\c#\\netcorewebapidemo\\netcorewebapidemo\\authorization\\handler\\samecompanyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|solutionrelative:netcorewebapidemo\\authorization\\handler\\samecompanyhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|c:\\software\\c#\\netcorewebapidemo\\netcorewebapidemo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|solutionrelative:netcorewebapidemo\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|c:\\software\\c#\\netcorewebapidemo\\netcorewebapidemo\\authorization\\requirement\\samecompanyrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|solutionrelative:netcorewebapidemo\\authorization\\requirement\\samecompanyrequirement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EF86B5FF-86E1-D73A-C3E9-D68D91E74CFA}|NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj|c:\\software\\c#\\netcorewebapidemo\\netcorewebapidemo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,37 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "NetCoreWebApiDemo\\appsettings.Development.json",
-              "ToolTip": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\appsettings.Development.json",
-              "RelativeToolTip": "NetCoreWebApiDemo\\appsettings.Development.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-04-02T15:16:06.907Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Services\\JwtService.cs",
-              "RelativeDocumentMoniker": "NetCoreWebApiDemo\\Services\\JwtService.cs",
-              "ToolTip": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Services\\JwtService.cs",
-              "RelativeToolTip": "NetCoreWebApiDemo\\Services\\JwtService.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T15:15:26.341Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -66,9 +40,35 @@
               "RelativeDocumentMoniker": "NetCoreWebApiDemo\\Controllers\\ProductController.cs",
               "ToolTip": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Controllers\\ProductController.cs",
               "RelativeToolTip": "NetCoreWebApiDemo\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAwCMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAQwCQAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T15:02:40.736Z",
+              "WhenOpened": "2026-04-03T13:39:36.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SameCompanyRequirement.cs",
+              "DocumentMoniker": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Authorization\\Requirement\\SameCompanyRequirement.cs",
+              "RelativeDocumentMoniker": "NetCoreWebApiDemo\\Authorization\\Requirement\\SameCompanyRequirement.cs",
+              "ToolTip": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Authorization\\Requirement\\SameCompanyRequirement.cs",
+              "RelativeToolTip": "NetCoreWebApiDemo\\Authorization\\Requirement\\SameCompanyRequirement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T13:31:40.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SameCompanyHandler.cs",
+              "DocumentMoniker": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Authorization\\Handler\\SameCompanyHandler.cs",
+              "RelativeDocumentMoniker": "NetCoreWebApiDemo\\Authorization\\Handler\\SameCompanyHandler.cs",
+              "ToolTip": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Authorization\\Handler\\SameCompanyHandler.cs",
+              "RelativeToolTip": "NetCoreWebApiDemo\\Authorization\\Handler\\SameCompanyHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABRAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-03T13:31:33.975Z",
               "EditorCaption": ""
             },
             {
@@ -79,9 +79,9 @@
               "RelativeDocumentMoniker": "NetCoreWebApiDemo\\Program.cs",
               "ToolTip": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\Program.cs",
               "RelativeToolTip": "NetCoreWebApiDemo\\Program.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAAAEoAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAC0AAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-02T13:15:57.912Z",
+              "WhenOpened": "2026-04-03T13:21:39.742Z",
               "EditorCaption": ""
             }
           ]
