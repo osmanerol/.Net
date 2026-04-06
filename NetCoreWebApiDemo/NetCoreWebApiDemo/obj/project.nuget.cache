@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "OXsq5ZMarr0=",
+  "dgSpecHash": "r9t4ZHHvtq4=",
   "success": true,
   "projectFilePath": "C:\\Software\\C#\\NetCoreWebApiDemo\\NetCoreWebApiDemo\\NetCoreWebApiDemo.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\osman\\.nuget\\packages\\aspnetcore.healthchecks.sqlserver\\9.0.0\\aspnetcore.healthchecks.sqlserver.9.0.0.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\aspnetcore.healthchecks.ui.client\\9.0.0\\aspnetcore.healthchecks.ui.client.9.0.0.nupkg.sha512",
+    "C:\\Users\\osman\\.nuget\\packages\\aspnetcore.healthchecks.ui.core\\9.0.0\\aspnetcore.healthchecks.ui.core.9.0.0.nupkg.sha512",
     "C:\\Users\\osman\\.nuget\\packages\\automapper\\16.1.1\\automapper.16.1.1.nupkg.sha512",
     "C:\\Users\\osman\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\osman\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",

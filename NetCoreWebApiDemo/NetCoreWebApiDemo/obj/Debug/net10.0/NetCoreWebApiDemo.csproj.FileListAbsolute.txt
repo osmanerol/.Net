@@ -175,3 +175,6 @@ C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Swashbuckle
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\NetCoreWebApiDemo.xml
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\obj\Debug\net10.0\NetCoreWebApiDemo.xml
 C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\HealthChecks.SqlServer.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\HealthChecks.UI.Client.dll
+C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo\bin\Debug\net10.0\HealthChecks.UI.Core.dll

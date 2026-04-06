@@ -429,3 +429,76 @@ WHERE [p].[Id] = @p
 2026-04-06 12:15:13.113 +03:00 [INF] Executed endpoint 'NetCoreWebApiDemo.Controllers.ProductController.GetById (NetCoreWebApiDemo)'
 2026-04-06 12:15:13.115 +03:00 [INF] HTTP GET /api/Product/4 responded 200 in 18.5467 ms
 2026-04-06 12:15:13.118 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/api/Product/4 - 200 null application/json; charset=utf-8 30.7913ms
+2026-04-06 15:06:43.082 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-06 15:06:43.563 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-06 15:06:43.710 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-06 15:06:43.716 +03:00 [INF] Hosting environment: Development
+2026-04-06 15:06:43.718 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-06 15:07:01.147 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/health - null null
+2026-04-06 15:07:01.310 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-06 15:07:01.316 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-06 15:07:01.329 +03:00 [INF] Executing endpoint 'Health checks'
+2026-04-06 15:07:02.124 +03:00 [INF] Executed endpoint 'Health checks'
+2026-04-06 15:07:02.134 +03:00 [INF] HTTP GET /health responded 200 in 808.7716 ms
+2026-04-06 15:07:02.153 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/health - 200 null application/json 1015.1579ms
+2026-04-06 15:07:42.104 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-06 15:07:42.507 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-06 15:07:42.909 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-06 15:07:42.910 +03:00 [INF] Hosting environment: Development
+2026-04-06 15:07:42.912 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-06 15:08:05.655 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/health - null null
+2026-04-06 15:08:05.802 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-06 15:08:05.808 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-06 15:08:05.819 +03:00 [INF] Executing endpoint 'Health checks'
+2026-04-06 15:08:06.321 +03:00 [INF] Executed endpoint 'Health checks'
+2026-04-06 15:08:06.327 +03:00 [INF] HTTP GET /health responded 200 in 509.6886 ms
+2026-04-06 15:08:06.348 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/health - 200 null application/json 703.1748ms
+2026-04-06 15:08:11.485 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/health - null null
+2026-04-06 15:08:11.493 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-06 15:08:11.495 +03:00 [INF] Executing endpoint 'Health checks'
+2026-04-06 15:08:26.270 +03:00 [ERR] Health check sqlserver with status "Unhealthy" completed after 14747.2507ms with message 'null'
+Microsoft.Data.SqlClient.SqlException (0x80131904): SQL Server'a bağlantı kurulurken ağla ilgili veya örneğe özel bir hata oluştu. Sunucu bulunamadı ya da sunucuya erişilemiyor. Örnek adının doğru olduğunu ve SQL Server'ın uzaktan bağlantılara izin verecek şekilde yapılandırıldığını doğrulayın. (provider: SQL Ağ Arabirimleri, error: 26 - Belirtilen Sunucuyu/Örneği Bulma Hatası)
+   at Microsoft.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, SqlCommand command, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.Connect(ServerInfo serverInfo, SqlInternalConnectionTds connHandler, TimeoutTimer timeout, SqlConnectionString connectionOptions, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.AttemptOneLogin(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, TimeoutTimer timeout, Boolean withFailover)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.LoginNoFailover(ServerInfo serverInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString connectionOptions, SqlCredential credential, TimeoutTimer timeout)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds.OpenLoginEnlist(TimeoutTimer timeout, SqlConnectionString connectionOptions, SqlCredential credential, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance)
+   at Microsoft.Data.SqlClient.SqlInternalConnectionTds..ctor(DbConnectionPoolIdentity identity, SqlConnectionString connectionOptions, SqlCredential credential, Object providerInfo, String newPassword, SecureString newSecurePassword, Boolean redirectedUserInstance, SqlConnectionString userConnectionOptions, SessionData reconnectSessionData, Boolean applyTransientFaultHandling, String accessToken, IDbConnectionPool pool, Func`3 accessTokenCallback)
+   at Microsoft.Data.SqlClient.SqlConnectionFactory.CreateConnection(DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionPoolGroupProviderInfo poolGroupProviderInfo, IDbConnectionPool pool, DbConnection owningConnection, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.CreatePooledConnection(IDbConnectionPool pool, DbConnection owningObject, DbConnectionOptions options, DbConnectionPoolKey poolKey, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.CreateObject(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.UserCreateRequest(DbConnection owningObject, DbConnectionOptions userOptions, DbConnectionInternal oldConnection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, UInt32 waitForMultipleObjectsTimeout, Boolean allowCreate, Boolean onlyOneCheckConnection, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.SqlClient.ConnectionPool.WaitHandleDbConnectionPool.TryGetConnection(DbConnection owningObject, TaskCompletionSource`1 taskCompletionSource, DbConnectionOptions userOptions, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   at Microsoft.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   at Microsoft.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry, SqlConnectionOverrides overrides)
+   at Microsoft.Data.SqlClient.SqlConnection.InternalOpenAsync(SqlConnectionOverrides overrides, CancellationToken cancellationToken)
+--- End of stack trace from previous location ---
+   at HealthChecks.SqlServer.SqlServerHealthCheck.CheckHealthAsync(HealthCheckContext context, CancellationToken cancellationToken) in /home/runner/work/AspNetCore.Diagnostics.HealthChecks/AspNetCore.Diagnostics.HealthChecks/src/HealthChecks.SqlServer/SqlServerHealthCheck.cs:line 28
+ClientConnectionId:00000000-0000-0000-0000-000000000000
+Hata Numarası: -1,Durum: 0,Sınıf:20
+2026-04-06 15:08:26.330 +03:00 [INF] Executed endpoint 'Health checks'
+2026-04-06 15:08:26.332 +03:00 [ERR] HTTP GET /health responded 503 in 14836.3267 ms
+2026-04-06 15:08:26.336 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/health - 503 null application/json 14851.3995ms
+2026-04-06 15:08:36.450 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/health - null null
+2026-04-06 15:08:36.460 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-06 15:08:36.464 +03:00 [INF] Executing endpoint 'Health checks'
+2026-04-06 15:08:36.613 +03:00 [INF] Executed endpoint 'Health checks'
+2026-04-06 15:08:36.616 +03:00 [INF] HTTP GET /health responded 200 in 152.3203 ms
+2026-04-06 15:08:36.622 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/health - 200 null application/json 172.4192ms
+2026-04-06 15:12:05.209 +03:00 [INF] User profile is available. Using 'C:\Users\osman\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2026-04-06 15:12:05.723 +03:00 [INF] Now listening on: http://localhost:5078
+2026-04-06 15:12:05.825 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2026-04-06 15:12:05.828 +03:00 [INF] Hosting environment: Development
+2026-04-06 15:12:05.838 +03:00 [INF] Content root path: C:\Software\C#\NetCoreWebApiDemo\NetCoreWebApiDemo
+2026-04-06 15:12:07.877 +03:00 [INF] Request starting HTTP/1.1 GET http://localhost:5078/health - null null
+2026-04-06 15:12:08.081 +03:00 [WRN] Failed to determine the https port for redirect.
+2026-04-06 15:12:08.088 +03:00 [INF] No correlation ID was found in the request headers
+2026-04-06 15:12:08.095 +03:00 [INF] Executing endpoint 'Health checks'
+2026-04-06 15:12:08.117 +03:00 [ERR] Health check critical_config with status "Unhealthy" completed after 7.5011ms with message 'External ApiKey missing.'
+2026-04-06 15:12:08.671 +03:00 [INF] Executed endpoint 'Health checks'
+2026-04-06 15:12:08.679 +03:00 [ERR] HTTP GET /health responded 503 in 582.7442 ms
+2026-04-06 15:12:08.694 +03:00 [INF] Request finished HTTP/1.1 GET http://localhost:5078/health - 503 null application/json 831.9189ms
