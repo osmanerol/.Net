@@ -1,5 +1,6 @@
 ﻿using AutoMapper;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Caching.Memory;
 using NetCoreWebApiDemo.Models;
 using NetCoreWebApiDemo.Models.Product;
 using NetCoreWebApiDemo.Repositories;
@@ -11,11 +12,13 @@ namespace NetCoreWebApiDemo.Services
     {
         private readonly IGenericRepository<Product> _repository;
         private readonly IMapper _mapper;
+        private readonly IMemoryCache _memoryCache;
 
-        public ProductService(IGenericRepository<Product> repository, IMapper mapper)
+        public ProductService(IGenericRepository<Product> repository, IMapper mapper, IMemoryCache memoryCache)
         {
             _repository = repository;
             _mapper = mapper;
+            _memoryCache = memoryCache;
         }
 
         public void Add(ProductSaveDto product)
@@ -60,19 +63,28 @@ namespace NetCoreWebApiDemo.Services
 
         public ProductDto? GetById(int id)
         {
-            var entity = _repository.GetById(id);
+            var key = $"product:{id}";
+            var entity = _memoryCache.GetOrCreate(key, entry =>
+            {
+                entry.AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(5);
+                entry.SlidingExpiration = TimeSpan.FromMinutes(1);
+                entry.Priority = CacheItemPriority.High;
+                return _repository.GetById(id);
+            });
             var product = _mapper.Map<ProductDto>(entity);
             return product;
         }
 
         public void Update(int id, ProductSaveDto product)
         {
+            var key = $"product:{id}";
             var item = _repository.GetById(id);
             if (item == null)
                 throw new Exception("Product not found.");
             var productEntity = _mapper.Map(product, item);
             _repository.Update(item);
             _repository.Save();
+            _memoryCache.Remove(key);
         }
 
         private IQueryable<Product> ApplySorting(IQueryable<Product> query, string? sort)

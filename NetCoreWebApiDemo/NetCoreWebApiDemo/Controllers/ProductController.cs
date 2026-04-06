@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.RateLimiting;
+using Microsoft.Extensions.Caching.Memory;
 using NetCoreWebApiDemo.Exceptions;
 using NetCoreWebApiDemo.Filters;
 using NetCoreWebApiDemo.Models;
@@ -12,7 +13,7 @@ using System.Security.Claims;
 namespace NetCoreWebApiDemo.Controllers
 {
     [Route("api/[controller]")]
-    [Authorize(Policy = "SameCompanyPolicy")]
+    // [Authorize(Policy = "SameCompanyPolicy")]
     /*
     [ServiceFilter(typeof(ApiKeyAuthorizationFilter))]
     [ServiceFilter(typeof(ResourceLogFilter))]
@@ -93,10 +94,12 @@ namespace NetCoreWebApiDemo.Controllers
         [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
+            /*
             if (id <= 0)
                 throw new ArgumentException("Invalid id.");
             if (id == 1)
                 throw new NotFoundException("");
+            */
             var item = _productService.GetById(id);
             return item == null ? NotFound() : Ok(item);
         }

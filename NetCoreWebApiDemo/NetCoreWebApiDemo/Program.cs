@@ -151,6 +151,8 @@ builder.Services.AddScoped<ActionLogFilter>();
 builder.Services.AddScoped<WrapResponseFilter>();
 */
 
+builder.Services.AddMemoryCache();
+
 var config = builder.Configuration;
 string connection = config.GetConnectionString("DefaultConnection") ?? "";
 string applicationName = config["AppSettings:ApplicationName"] ?? "";
