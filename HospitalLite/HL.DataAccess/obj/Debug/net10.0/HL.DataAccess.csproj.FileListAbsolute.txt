@@ -1,0 +1,16 @@
+C:\Software\C#\HospitalLite\HL.DataAccess\bin\Debug\net10.0\HL.DataAccess.deps.json
+C:\Software\C#\HospitalLite\HL.DataAccess\bin\Debug\net10.0\HL.DataAccess.dll
+C:\Software\C#\HospitalLite\HL.DataAccess\bin\Debug\net10.0\HL.DataAccess.pdb
+C:\Software\C#\HospitalLite\HL.DataAccess\bin\Debug\net10.0\HL.Core.dll
+C:\Software\C#\HospitalLite\HL.DataAccess\bin\Debug\net10.0\HL.Core.pdb
+C:\Software\C#\HospitalLite\HL.DataAccess\obj\Debug\net10.0\HL.DataAccess.csproj.AssemblyReference.cache
+C:\Software\C#\HospitalLite\HL.DataAccess\obj\Debug\net10.0\HL.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Software\C#\HospitalLite\HL.DataAccess\obj\Debug\net10.0\HL.DataAccess.AssemblyInfoInputs.cache
+C:\Software\C#\HospitalLite\HL.DataAccess\obj\Debug\net10.0\HL.DataAccess.AssemblyInfo.cs
+C:\Software\C#\HospitalLite\HL.DataAccess\obj\Debug\net10.0\HL.DataAccess.csproj.CoreCompileInputs.cache
+C:\Software\C#\HospitalLite\HL.DataAccess\obj\Debug\net10.0\HL.DataAccess.sourcelink.json
+C:\Software\C#\HospitalLite\HL.DataAccess\obj\Debug\net10.0\HL.DataA.E53E8171.Up2Date
+C:\Software\C#\HospitalLite\HL.DataAccess\obj\Debug\net10.0\HL.DataAccess.dll
+C:\Software\C#\HospitalLite\HL.DataAccess\obj\Debug\net10.0\refint\HL.DataAccess.dll
+C:\Software\C#\HospitalLite\HL.DataAccess\obj\Debug\net10.0\HL.DataAccess.pdb
+C:\Software\C#\HospitalLite\HL.DataAccess\obj\Debug\net10.0\ref\HL.DataAccess.dll

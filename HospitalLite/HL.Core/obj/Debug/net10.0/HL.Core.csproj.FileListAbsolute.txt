@@ -1,0 +1,12 @@
+C:\Software\C#\HospitalLite\HL.Core\bin\Debug\net10.0\HL.Core.deps.json
+C:\Software\C#\HospitalLite\HL.Core\bin\Debug\net10.0\HL.Core.dll
+C:\Software\C#\HospitalLite\HL.Core\bin\Debug\net10.0\HL.Core.pdb
+C:\Software\C#\HospitalLite\HL.Core\obj\Debug\net10.0\HL.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Software\C#\HospitalLite\HL.Core\obj\Debug\net10.0\HL.Core.AssemblyInfoInputs.cache
+C:\Software\C#\HospitalLite\HL.Core\obj\Debug\net10.0\HL.Core.AssemblyInfo.cs
+C:\Software\C#\HospitalLite\HL.Core\obj\Debug\net10.0\HL.Core.csproj.CoreCompileInputs.cache
+C:\Software\C#\HospitalLite\HL.Core\obj\Debug\net10.0\HL.Core.sourcelink.json
+C:\Software\C#\HospitalLite\HL.Core\obj\Debug\net10.0\HL.Core.dll
+C:\Software\C#\HospitalLite\HL.Core\obj\Debug\net10.0\refint\HL.Core.dll
+C:\Software\C#\HospitalLite\HL.Core\obj\Debug\net10.0\HL.Core.pdb
+C:\Software\C#\HospitalLite\HL.Core\obj\Debug\net10.0\ref\HL.Core.dll

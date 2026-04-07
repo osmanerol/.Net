@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HL.Core\HL.Core.csproj" />
+    <ProjectReference Include="..\HL.DataAccess\HL.DataAccess.csproj" />
+  </ItemGroup>
+
+</Project>

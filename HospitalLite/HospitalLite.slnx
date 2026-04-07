@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="HL.API/HL.API.csproj" />
+  <Project Path="HL.Business/HL.Business.csproj" />
+  <Project Path="HL.Core/HL.Core.csproj" />
+  <Project Path="HL.DataAccess/HL.DataAccess.csproj" />
+</Solution>

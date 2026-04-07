@@ -1,0 +1,6 @@
+@HL.API_HostAddress = http://localhost:5198
+
+GET {{HL.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
