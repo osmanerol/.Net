@@ -3,7 +3,7 @@ using HL.Core.Enums;
 
 namespace HL.Core.Entities
 {
-    internal class Appointment : BaseEntity
+    public class Appointment : BaseEntity
     {
         public int PatientId { get; set; }
         public virtual AppUser Patient { get; set; } = null;

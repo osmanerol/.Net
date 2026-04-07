@@ -12,5 +12,6 @@ namespace HL.Core.Entities
         public UserRole Role { get; set; }
         public string? RefreshToken { get; set; }
         public DateTime? ReftreshTokenEndDate { get; set; }
+        public virtual ICollection<UserClaim> UserClaims { get; set; } = new List<UserClaim>();
     }
 }

@@ -1,7 +1,32 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Software\\C#\\HospitalLite\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{982C636E-890A-E740-346B-95460DD2DB15}|HL.Business\\HL.Business.csproj|c:\\software\\c#\\hospitallite\\hl.business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982C636E-890A-E740-346B-95460DD2DB15}|HL.Business\\HL.Business.csproj|solutionrelative:hl.business\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204601B1-1C7B-BF02-D894-FF7F22E3D879}|HL.API\\HL.API.csproj|c:\\software\\c#\\hospitallite\\hl.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204601B1-1C7B-BF02-D894-FF7F22E3D879}|HL.API\\HL.API.csproj|solutionrelative:hl.api\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{204601B1-1C7B-BF02-D894-FF7F22E3D879}|HL.API\\HL.API.csproj|c:\\software\\c#\\hospitallite\\hl.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{204601B1-1C7B-BF02-D894-FF7F22E3D879}|HL.API\\HL.API.csproj|solutionrelative:hl.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9D3BBF34-4B9D-4F17-5AC3-DC58912CED3A}|HL.DataAccess\\HL.DataAccess.csproj|c:\\software\\c#\\hospitallite\\hl.dataaccess\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3BBF34-4B9D-4F17-5AC3-DC58912CED3A}|HL.DataAccess\\HL.DataAccess.csproj|solutionrelative:hl.dataaccess\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{102D363B-23EA-08B1-C42C-5A9DEB4E122D}|HL.Core\\HL.Core.csproj|c:\\software\\c#\\hospitallite\\hl.core\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{102D363B-23EA-08B1-C42C-5A9DEB4E122D}|HL.Core\\HL.Core.csproj|solutionrelative:hl.core\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{982C636E-890A-E740-346B-95460DD2DB15}|HL.Business\\HL.Business.csproj|c:\\software\\c#\\hospitallite\\hl.business\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{982C636E-890A-E740-346B-95460DD2DB15}|HL.Business\\HL.Business.csproj|solutionrelative:hl.business\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +34,89 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Software\\C#\\HospitalLite\\HL.Business\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "HL.Business\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Software\\C#\\HospitalLite\\HL.Business\\Services\\AuthService.cs",
+              "RelativeToolTip": "HL.Business\\Services\\AuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T13:23:46.901Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Software\\C#\\HospitalLite\\HL.Core\\Interface\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "HL.Core\\Interface\\IGenericRepository.cs",
+              "ToolTip": "C:\\Software\\C#\\HospitalLite\\HL.Core\\Interface\\IGenericRepository.cs",
+              "RelativeToolTip": "HL.Core\\Interface\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T13:17:02.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "C:\\Software\\C#\\HospitalLite\\HL.DataAccess\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "HL.DataAccess\\Repositories\\GenericRepository.cs",
+              "ToolTip": "C:\\Software\\C#\\HospitalLite\\HL.DataAccess\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "HL.DataAccess\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAQwDIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T13:14:02.864Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Software\\C#\\HospitalLite\\HL.API\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "HL.API\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Software\\C#\\HospitalLite\\HL.API\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "HL.API\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T13:08:06.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Software\\C#\\HospitalLite\\HL.Business\\Services\\TokenService.cs",
+              "RelativeDocumentMoniker": "HL.Business\\Services\\TokenService.cs",
+              "ToolTip": "C:\\Software\\C#\\HospitalLite\\HL.Business\\Services\\TokenService.cs",
+              "RelativeToolTip": "HL.Business\\Services\\TokenService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAD4vyIAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T13:07:42.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Software\\C#\\HospitalLite\\HL.API\\Program.cs",
+              "RelativeDocumentMoniker": "HL.API\\Program.cs",
+              "ToolTip": "C:\\Software\\C#\\HospitalLite\\HL.API\\Program.cs",
+              "RelativeToolTip": "HL.API\\Program.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-07T13:00:05.26Z",
+              "EditorCaption": ""
             }
           ]
         }
